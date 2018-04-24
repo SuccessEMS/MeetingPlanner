@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">Exchange Web Services (EWS) Diagnostics</h1>
+        <h2 class="Heading2">Background</h2>
+        <p>Emergingsoft has multiple products that integrate with Exchange, many of which utilize Exchange Web Services. &#160;This diagnostics tool can help identify URL, service account password, and permissions issues. &#160;As a first troubleshooting step, Emergingsoft has put this tool together to help with troubleshooting.</p>
+        <h2 class="Heading2">"Installation"</h2>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Download the attached zip file to any machine on your network.</li>
+            <li>Make sure that the zip is "Unblocked" once it is on the server.</li>
+            <li>Extract the files.</li>
+            <li>Double-click the "Emergingsoft.MeetingPlanner.ExchangeDiagnosticsTool.exe" to run the application.</li>
+        </ol>
+        <h2 class="Heading2">Functionality &amp; Use</h2>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Launching the tool will bring up the diagnostics interface. &#160;</li>
+            <li>Input the appropriate settings as they are in MeetingPlanner.</li>
+            <li>Click "Run." &#160;(Note: &#160;The tool may take several minutes to return a result, please be patient)</li>
+        </ol>
+        <p>Credential Validation: &#160;The first section of the diagnosis will contain credential validation. &#160;This is to establish that the service account has access, as well as which form of the credentials are required by the Exchange server.</p>
+        <p>Contact Email Address(es) Check: &#160;This confirms that the service account has an active mailbox in Exchange (a requirement for Emergingsoft's EWS integration).</p>
+        <p>Impersonation Check: &#160;This confirms if the service account can impersonate the provided email address. &#160;If no "Impersonation Email" is provided, this diagnostics section will not return.</p>
+        <p>Room Permissions: Delegate Check: &#160;This provides the users that have explicit delegate privileges. &#160; Any accounts with "Full Access," will not be listed here.</p>
+        <h2 class="Heading2">Download</h2>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">&#160;<a href="http://support.emergingsoft.com/attachments/token/71MQInGZvTUxX89bIpwZ3Ywj7/?name=EWS+Diagnostics.zip"><span class="Hyperlink">EWS Diagnostics.zip</span></a></li>
+        </ul>
+    </body>
+</html>

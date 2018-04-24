@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-04-24T12:35:17.3101777-06:00"
+  ProjectName="MeetingPlanner"
+  ProjectFolder="C:\Users\megan.laub\Documents\My Projects\MeetingPlanner\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2018-04-24T12:35:35.8579406-06:00">
+  <Files>
+    <Url
+      Source="../../../../Docs/MigrateWordDocs/Meeting Planner/MP_Integ.docx"
+      AbsoluteSource="file:///C:/Users/megan.laub/Documents/Docs/MigrateWordDocs/Meeting Planner/MP_Integ.docx" />
+    <Url
+      Source="../../../../Docs/MigrateWordDocs/Meeting Planner/MP-API.docx"
+      AbsoluteSource="file:///C:/Users/megan.laub/Documents/Docs/MigrateWordDocs/Meeting Planner/MP-API.docx" />
+    <Url
+      Source="../../../../Docs/MigrateWordDocs/Meeting Planner/MP-Utilities.docx"
+      AbsoluteSource="file:///C:/Users/megan.laub/Documents/Docs/MigrateWordDocs/Meeting Planner/MP-Utilities.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/MP_Integ3/Crestron Fusion Digital Signage.htm"
+      TimeStamp="4/24/2018 12:35:33 PM" />
+    <Url
+      Source="../../Content/MP_Integ3/Installation and Configuration.htm"
+      TimeStamp="4/24/2018 12:35:33 PM" />
+    <Url
+      Source="../../Content/MP_Integ3/MP_Integ.htm"
+      TimeStamp="4/24/2018 12:35:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/MP_Integ3/Installation.png"
+      TimeStamp="4/24/2018 12:35:33 PM" />
+    <Url
+      Source="../../Content/Resources/Images/MP_Integ3/Installation_1.png"
+      TimeStamp="4/24/2018 12:35:33 PM" />
+    <Url
+      Source="../../Content/MP_Integ3/Installation.htm"
+      TimeStamp="4/24/2018 12:35:33 PM" />
+    <Url
+      Source="../../Content/MP_Integ3/Resource Isolation Splitting.htm"
+      TimeStamp="4/24/2018 12:35:34 PM" />
+    <Url
+      Source="../../Content/MP_Integ3/API Reservation Fee XML Drop.htm"
+      TimeStamp="4/24/2018 12:35:34 PM" />
+    <Url
+      Source="../../Content/MP_Integ3/Active Directory Diagnostic.htm"
+      TimeStamp="4/24/2018 12:35:34 PM" />
+    <Url
+      Source="../TOCs/MP_Integ3.fltoc"
+      TimeStamp="4/24/2018 12:35:33 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/MP_Integ3.css"
+      TimeStamp="4/24/2018 12:35:33 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="mt-color-669933" />
+    <StyleName
+      Name="il" />
+  </UsedCharacterStyles>
+</MsWordImport>

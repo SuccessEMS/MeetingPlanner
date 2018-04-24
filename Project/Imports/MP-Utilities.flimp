@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-04-24T13:36:23.3509802-06:00"
+  ProjectName="MeetingPlanner"
+  ProjectFolder="C:\Users\megan.laub\Documents\My Projects\MeetingPlanner\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2018-04-24T13:36:40.9692253-06:00">
+  <Files>
+    <Url
+      Source="../../../../Docs/MigrateWordDocs/Meeting Planner/MP-Utilities.docx"
+      AbsoluteSource="file:///C:/Users/megan.laub/Documents/Docs/MigrateWordDocs/Meeting Planner/MP-Utilities.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/MP-Utilities/Active Directory Diagnostic.htm"
+      TimeStamp="4/24/2018 1:36:39 PM" />
+    <Url
+      Source="../../Content/MP-Utilities/Exchange Web Services EWS.htm"
+      TimeStamp="4/24/2018 1:36:39 PM" />
+    <Url
+      Source="../../Content/MP-Utilities/IIS Warmup Application v1.htm"
+      TimeStamp="4/24/2018 1:36:39 PM" />
+    <Url
+      Source="../../Content/MP-Utilities/Resource Mailbox Migration.htm"
+      TimeStamp="4/24/2018 1:36:39 PM" />
+    <Url
+      Source="../../Content/MP-Utilities/Scheduled Reservation Import.htm"
+      TimeStamp="4/24/2018 1:36:39 PM" />
+    <Url
+      Source="../TOCs/MP-Utilities.fltoc"
+      TimeStamp="4/24/2018 1:36:39 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/MP-Utilities.css"
+      TimeStamp="4/24/2018 1:36:39 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Hyperlink" />
+  </UsedCharacterStyles>
+</MsWordImport>

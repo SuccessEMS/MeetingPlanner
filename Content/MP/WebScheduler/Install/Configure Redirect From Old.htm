@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">Configure Redirect From Old URL</h1>
+        <h2 class="Heading2_1">Introduction</h2>
+        <p class="NormalWeb_1">v5.5.5.13 was the final MeetingPlanner version where the Web Scheduler was accessible via the /scheduler URL. In all subsequent versions, the web components were combined under the /suite application. &#160;If users are used to going to the old Web Scheduler URL, setting up a redirect can be done to prevent them from needing to update their bookmarks.&#160;</p>
+        <p class="NormalWeb"><span class="Strong_2">Note: &#160;</span><span class="span_1">While the following steps layout how to redirect the user from /scheduler to /suite, the same steps can be followed if you are looking to transition users out of the old MP Web toolset (/meetingplanner).</span>
+        </p>
+        <h2 class="Heading2_1">How To:</h2>
+        <p class="NormalWeb_1">1) &#160;Create a "Scheduler" folder in the C:\Program Files (x86)\Emergingsoft folder on the application server.</p>
+        <p class="NormalWeb_1">2) &#160;Open IIS.</p>
+        <p class="NormalWeb_1">3) &#160;Expand Sites.</p>
+        <p class="NormalWeb"><span class="span_1">4) &#160;Right-click on the </span><span class="Emphasis_1">Default Web Site &gt; </span><span class="Strong_1">Add Virtual Directory</span><span class="Strong_2">.</span>
+        </p>
+        <p class="NormalWeb"><span class="span_1">5) &#160;Click </span><span class="Strong_2">OK</span><span class="span_1">.</span>
+        </p>
+        <p class="NormalWeb_1">6) &#160;Select the newly-created Scheduler virtual directory in IIS.</p>
+        <p class="NormalWeb"><span class="span_1">7) &#160;In the Features pane, double-click on </span><span class="Strong_2">HTTP Redirect.</span>
+        </p>
+        <p class="NormalWeb_1">8) &#160;Create an HTTP Redirect rule to redirect users to the /suite application. &#160;</p>
+        <p class="NormalWeb"><span class="Strong_2">Note</span><span class="span_1">: &#160;Replace "demo.emergingsoft.com" with your server information.</span>
+        </p>
+        <p class="NormalWeb"><span class="span_1">9) &#160;Click</span><span class="Strong_2"> Apply,</span><span class="span_1"> and you're done! &#160;Now, when users try to browse to </span><a href="http://server/scheduler" title="http://server/scheduler"><span class="Hyperlink_2">http://server/scheduler</span></a><span class="span_1">, they will be redirected to the new URL.</span>
+        </p>
+    </body>
+</html>

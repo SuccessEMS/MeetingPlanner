@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-04-24T12:25:36.5155428-06:00"
+  ProjectName="MeetingPlanner"
+  ProjectFolder="C:\Users\megan.laub\Documents\My Projects\MeetingPlanner\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2018-04-24T12:25:54.8742072-06:00">
+  <Files>
+    <Url
+      Source="../../../../Docs/MigrateWordDocs/Meeting Planner/WebScheduler_InstallGuide.docx"
+      AbsoluteSource="file:///C:/Users/megan.laub/Documents/Docs/MigrateWordDocs/Meeting Planner/WebScheduler_InstallGuide.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/Installing Web Scheduler.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/Configure ASP NET State for.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/Configure Redirect From Old.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/Exchange Web Services.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/Introduction.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/Exchange Web Services EWS.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/Impersonation 2.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/Accessing EWS.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/MeetingPlanner Applications.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_InstallGuide/Uninstalling a Self Packaged.htm"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../TOCs/WebScheduler_InstallGuide.fltoc"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/WebScheduler_InstallGuide.css"
+      TimeStamp="4/24/2018 12:25:51 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Hyperlink" />
+  </UsedCharacterStyles>
+</MsWordImport>

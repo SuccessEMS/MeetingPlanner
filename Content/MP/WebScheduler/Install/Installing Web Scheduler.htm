@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">Installing Web Scheduler</h1>
+        <h2 class="Heading2_1">Compatible with...</h2>
+        <ul class="ul_1">
+            <li class="li_1">All modern browsers (IE11 or above, Chrome, Safari, mobile browsers, etc.)</li>
+            <li class="li_1">MeetingPlanner v5.5.1.45 or above</li>
+        </ul>
+        <h2 class="Heading2_1">Prerequisites</h2>
+        <ul class="ul_1">
+            <li class="li_1">Windows Server 2008/R2 and newer</li>
+            <li class="li_1">IIS6 or newer</li>
+            <li class="li_1">Message Queuing Services (MSMQ)</li>
+            <li class="li_1">.NET 4.0</li>
+        </ul>
+        <h3 class="Emphasis_1">IIS6 vs IIS7 Developer Note:</h3>
+        <p class="NormalWeb_1">&#160;</p>
+        <p class="Emphasis_1">A custom HTTP module and HTTP handler are packaged&#160;along with the web application&#160;that offer compression or dynamic resources, combinative dynamic resource sources,&#160;and explicit caching control of all dynamic resources, all resulting in increased&#160;performance. The module and handler will be functional in all versions of IIS. All other&#160;optimizations found in the application only be functional within IIS7 (or above)&#160;deployments..</p>
+        <h2 class="Heading2_1">Upgrade</h2>
+        <p class="NormalWeb"><span class="span_1">For those who already have the Web Scheduler installed and are looking to upgrade, simply uninstall the program (</span><span class="Emphasis_1">Start &gt; Control Panel &gt; </span><span class="Strong_1">Add/Remove Programs</span><span class="span_1">) and follow the installation instructions below. At this time, we are not producing .msp patch files for the Web Scheduler.</span>
+        </p>
+        <h2 class="Heading2_1">Installation</h2>
+        <h3 class="Heading3_1">Quick Reference</h3>
+        <p class="NormalWeb"><span class="span_1">1) &#160;From the application, run the .msi file.</span><span class="span_1"><br />2) &#160;Walk through the installation wizard.</span><span class="span_1"><br />3) &#160;Once the installation is complete, please open the ...\ Emergingsoft \ Scheduler \ </span><span class="span_1">Web.config</span><span class="span_1"><br />4) &#160;Save and Close.</span><span class="span_1"><br />5) &#160;If you are running the Web Scheduler with IIS6, and you are already running MeetingPlanner, you will need to move the Scheduler application from the Default Web Site to an alternate web site. This is because both applications use different .NET frameworks and, in IIS6, these cannot be hosted in the same web site.</span>
+        </p>
+        <p class="NormalWeb"><span class="span_1">See </span><a href="../../../../../../../../../My Web Sites/MT/deanevans-prod.mindtouch.us/Older_Releases_(V44,_V43)/MeetingPlanner/10-MeetingPlanner_5/03-Installing_MeetingPlanner_5/MP_5_Installation.html" title="https://success.emssoftware.com/MeetingPlanner/10-MeetingPlanner_5/03-Installing_MeetingPlanner_5/MP_5_Installation"><span class="Hyperlink_1">Installing&#160;MeetingPlanner&#160;5</span></a><span class="span_1"> or </span><a href="../../../../../../../../../My Web Sites/MT/deanevans-prod.mindtouch.us/Older_Releases_(V44,_V43)/MeetingPlanner/10-MeetingPlanner_6/Installing_MeetingPlanner_6/03-MP6_Installation.html" title="https://success.emssoftware.com/MeetingPlanner/10-MeetingPlanner_6/Installing_MeetingPlanner_6/03-MP6_Installation"><span class="Hyperlink_1">Installing MP 6</span></a><span class="span_1">&#160;for further instruction.&#160;</span>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1"><span class="span_2">Impersonation</span><span class="span_3">[2]</span>
+        </h1>
+        <p class="NormalWeb_1">Exchange provides two methods to provide permissions within Exchange, allowing one account to interact with multiple mailboxes: Delegate and Impersonation.&#160; Generally speaking, delegate permissions are provided to users, giving them access to a few other users’ mailboxes, while impersonation is provided to a service account in order to provide access to a large number of users’ mailboxes.&#160; With the exception of select functions used in MeetingPlanner digital signage, all EWS interaction requires impersonation permissions.</p>
+        <p class="NormalWeb"><span class="span_1">Impersonation ultimately provides “Send as” permissions, which means that the account is able to interact with Exchange as though they are the other user account.&#160; For example, a service account would be able to “impersonate” Joe User’s account in order </span><span class="span_1">to interact with his calendar.&#160; An invitation could be sent to other users, and those users would see the invitation as though it came directly from Joe User.&#160; This is in direct contrast to delegate permissions, which, in the same scenario, would result in the invited users receiving an invitation from the service account with a note that the account was acting on behalf of Joe User.</span>
+        </p>
+        <p class="NormalWeb_1">It is also important to note that impersonation is something that can only be enacted through code.&#160; If a profile was made for the service account in Outlook, no permissions would be able to be enacted as impersonation has no effect in Outlook.&#160; This adds another layer of safety, and supports Microsoft’s design intentions of providing impersonation for exclusive use by service accounts.&#160;</p>
+        <p class="NormalWeb"><span class="span_1">Impersonation is provided by granting the ApplicationImpersonation role to the service account.&#160; These permissions can be limited to a management scope, if desired.&#160; For MeetingPlanner, the service account will need permissions to all users that may interact with MeetingPlanner.</span><span class="span_4">[3]</span>
+        </p>
+    </body>
+</html>

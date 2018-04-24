@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">Scheduled Reservation Import</h1>
+        <p>Background</p>
+        <p>Some organizations may wish to regularly import reservations from a different tool or in bulk. &#160;A college, for instance, may need to add a new set of reservations for the new classes that are available each semester. &#160;This tool will allow an organization to complete those imports.</p>
+        <p>Installation &amp; Configuration</p>
+        <p>1) &#160;Download the attached zip.</p>
+        <p>**First confirm that the Zip is not blocked by Windows. &#160;This can be done by right-clicking on the file, going to Properties and clicking "Unblock." &#160;If the "Unblock" button is not present, then the archive is already unblocked.</p>
+        <p>2) &#160;Extract the files into a new folder on the application server (typically: &#160;...\Emergingsoft\ReservationImport).</p>
+        <p>3) &#160;Update the .config file:</p>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">&#160;</li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="list-style-type: circle;">DSN:&#160;&#160;Copy the DSN from the ... Emergingsoft \ MeetingPlannerWS \ web.config</li>
+            <li style="list-style-type: circle;">CSVPath: &#160;Enter the file path to the csv file that will include the reservations to me imported.</li>
+            <li style="list-style-type: circle;">ReportDir:&#160;&#160;Enter the path where the "report" should be placed. &#160;This will be an xml file containing any errors or deleted reservations, and should end with a "\".</li>
+            <li style="list-style-type: circle;">ConflictPriority:&#160;&#160;There are three options to choose from here... </li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="list-style-type: square;">Import: &#160;Reservations being imported will all be added to MeetingPlanner. &#160;Any conflicts will be deleted from MeetingPlanner and noted in the report file</li>
+            <li style="list-style-type: square;">MeetingPlanner: &#160;Reservations already existing in MeetingPlanner will take precedent. &#160;Any imported reservations in conflict will not be added, but will be noted in the report.</li>
+            <li style="list-style-type: square;">Log: &#160;If any conflicts are encountered, both reservations will be noted in the report - no reservations will be deleted.</li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="list-style-type: circle;">DefaultUserID:&#160;&#160;If a reservation is being imported and the user cannot be found based on the provided email address, the reservation will be mode for this account. &#160;This would correspond to the user_profile.user_id in the MeetingPlanner db.</li>
+            <li style="list-style-type: circle;">TimeZoneCode:&#160;&#160;This should be the three-letter timezone abbreviation representing the timezone that reservations are listed as in the import template.</li>
+        </ul>
+        <p>Process</p>
+        <p>Once the application is properly configured, follow these steps to complete the import:</p>
+        <p>1) &#160;Complete the import template (example is attached).</p>
+        <p>2) &#160;Save the csv file into the designated drop location.</p>
+        <p>3) &#160;Run the .exe application.</p>
+        <p>4) &#160;Review the report (sample attached).</p>
+        <p>&#160;</p>
+    </body>
+</html>

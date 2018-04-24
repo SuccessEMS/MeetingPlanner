@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-04-24T12:18:01.9609640-06:00"
+  ProjectName="MeetingPlanner"
+  ProjectFolder="C:\Users\megan.laub\Documents\My Projects\MeetingPlanner\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  Stylesheet="../../Content/Resources/Stylesheets/MainStyles.css"
+  LastImport="2018-04-24T12:18:55.5459574-06:00">
+  <Files>
+    <Url
+      Source="../../../../Docs/MigrateWordDocs/Meeting Planner/WebScheduler_UserGuide.docx"
+      AbsoluteSource="file:///C:/Users/megan.laub/Documents/Docs/MigrateWordDocs/Meeting Planner/WebScheduler_UserGuide.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Using Web Scheduler.htm"
+      TimeStamp="4/24/2018 12:18:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Access and View MeetingPlanner.htm"
+      TimeStamp="4/24/2018 12:18:51 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Features.htm"
+      TimeStamp="4/24/2018 12:18:52 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Create a Meeting.htm"
+      TimeStamp="4/24/2018 12:18:52 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Recurring Meetings.htm"
+      TimeStamp="4/24/2018 12:18:52 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Room Groups.htm"
+      TimeStamp="4/24/2018 12:18:52 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Edit Meeting.htm"
+      TimeStamp="4/24/2018 12:18:52 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Delete Meeting.htm"
+      TimeStamp="4/24/2018 12:18:52 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Edit Recurring Meeting.htm"
+      TimeStamp="4/24/2018 12:18:52 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Delete Single Occurrence of.htm"
+      TimeStamp="4/24/2018 12:18:52 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Submit Request.htm"
+      TimeStamp="4/24/2018 12:18:53 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Use Outlook Exchange in Conjunction.htm"
+      TimeStamp="4/24/2018 12:18:53 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Use Outlook Exchange in Conjunction_1.htm"
+      TimeStamp="4/24/2018 12:18:53 PM" />
+    <Url
+      Source="../../Content/WebScheduler_UserGuide/Web Scheduler Quick Reference.htm"
+      TimeStamp="4/24/2018 12:18:53 PM" />
+    <Url
+      Source="../TOCs/WebScheduler_UserGuide.fltoc"
+      TimeStamp="4/24/2018 12:18:51 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/MainStyles_1.css"
+      TimeStamp="4/24/2018 12:18:51 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Emphasis" />
+  </UsedCharacterStyles>
+</MsWordImport>

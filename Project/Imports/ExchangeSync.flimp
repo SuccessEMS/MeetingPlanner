@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-04-24T12:38:15.2275088-06:00"
+  ProjectName="MeetingPlanner"
+  ProjectFolder="C:\Users\megan.laub\Documents\My Projects\MeetingPlanner\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2018-04-24T12:38:32.9746694-06:00">
+  <Files>
+    <Url
+      Source="../../../../Docs/MigrateWordDocs/Meeting Planner/ExchangeSync.docx"
+      AbsoluteSource="file:///C:/Users/megan.laub/Documents/Docs/MigrateWordDocs/Meeting Planner/ExchangeSync.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/ExchangeSync/Exchange Sync Appointment.htm"
+      TimeStamp="4/24/2018 12:38:26 PM" />
+    <Url
+      Source="../../Content/ExchangeSync/Manually Configure Outlook.htm"
+      TimeStamp="4/24/2018 12:38:26 PM" />
+    <Url
+      Source="../../Content/ExchangeSync/Service Account Requirements.htm"
+      TimeStamp="4/24/2018 12:38:26 PM" />
+    <Url
+      Source="../../Content/ExchangeSync/User v5 5 0 20 current.htm"
+      TimeStamp="4/24/2018 12:38:26 PM" />
+    <Url
+      Source="../../Content/ExchangeSync/ExchangeSync.htm"
+      TimeStamp="4/24/2018 12:38:26 PM" />
+    <Url
+      Source="../TOCs/ExchangeSync.fltoc"
+      TimeStamp="4/24/2018 12:38:26 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/ExchangeSync.css"
+      TimeStamp="4/24/2018 12:38:26 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Normal (Web)" />
+    <StyleName
+      Name="style1" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Emphasis" />
+  </UsedCharacterStyles>
+</MsWordImport>

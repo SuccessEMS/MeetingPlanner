@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1_1">MeetingPlanner Applications Requiring EWS</h1>
+        <p class="NormalWeb_1">The applications that make use of an EWS connection are displayed below, along with the specific functions that require the connection.</p>
+        <ul class="ul_1">
+            <li class="li_1">EWS is required to display user availability in the Web Scheduler.&#160; The current user is impersonated and attendee availability will be displayed based on that user’s level of permissions to the other users’ calendars.&#160; This is an optional function, which means that the Web Scheduler will continue to work without an EWS connection (this function simply wouldn’t work).</li>
+            <li class="li_1">EWS is required for the Appointment Notifier service to run successfully.&#160; This service is responsible for relaying actions taken in the Web Scheduler to the user’s Exchange calendar.&#160;</li>
+            <li class="li_1">EWS is required for MeetingPlanner digital signage, if Exchange is the desired backend connection.&#160; For full functionality, delegate “Read” access to all resource mailboxes is also required.</li>
+        </ul>
+        <p class="p_1">&#160; </p>
+        <p class="NormalWeb"><span class="span_4">[1]</span> <a href="https://msdn.microsoft.com/en-us/library/office/dd877012(v=exchg.150).aspx" title="https://msdn.microsoft.com/en-us/library/office/dd877012(v=exchg.150).aspx"><span class="Hyperlink_2">https://msdn.microsoft.com/en-us/lib...xchg.150).aspx</span></a></p>
+        <p class="NormalWeb"><span class="span_4">[2]</span> <a href="https://msdn.microsoft.com/en-us/library/office/dn722377(v=exchg.150).aspx" title="https://msdn.microsoft.com/en-us/library/office/dn722377(v=exchg.150).aspx"><span class="Hyperlink_2">https://msdn.microsoft.com/en-us/lib...xchg.150).aspx</span></a><span class="span_1">.&#160;</span></p>
+        <p class="NormalWeb"><span class="span_4">[3]</span> <a href="https://msdn.microsoft.com/en-us/library/office/dn722377(v=exchg.150).aspx" title="https://msdn.microsoft.com/en-us/library/office/dn722377(v=exchg.150).aspx"><span class="Hyperlink_2">https://msdn.microsoft.com/en-us/lib...xchg.150).aspx</span></a></p>
+        <p class="NormalWeb"><span class="span_4">[4]</span> <a href="https://msdn.microsoft.com/en-us/library/office/dd633680(v=exchg.80).aspx" title="https://msdn.microsoft.com/en-us/library/office/dd633680%28v=exchg.80%29.aspx"><span class="Hyperlink_2">https://msdn.microsoft.com/en-us/lib...chg.80%29.aspx</span></a></p>
+    </body>
+</html>

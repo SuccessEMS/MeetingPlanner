@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="9742" MadCap:lastWidth="760" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">Active Directory Diagnostic</h1>
+        <p>Background</p>
+        <p>Emergingsoft has an Active Directory Synchronization service that comes as part of MeetingPlanner. &#160;The service retrieves user accounts from configured Active Directory LDAP paths and creates / maintains MeetingPlanner user profiles for found users. &#160;LDAP paths for the service are typically retrieved from Microsoft's ADSI Edit tool, which provides a graphical view into Active Directory and provides the Distinguished Name formatting for all paths that are required.</p>
+        <p>In the event that there are more complex issues preventing a connection to a configured LDAP path, additional diagnostics tools may be required. &#160;As a preliminary step, Emergingsoft has put this tool together to help with troubleshooting.</p>
+        <p>"Installation"</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Download the attached zip file to the server.</li>
+            <li>Make sure that the zip is "Unblocked" once it is on the server.</li>
+            <li>Extract the files.</li>
+            <li>Double-click the "Emergingsoft.MeetingPlanner.ActiveDirectoryDiagnostics.exe" to run the application.</li>
+        </ol>
+        <p>Functionality &amp; Use</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Launching the tool will bring up the diagnostics interface. &#160;</li>
+            <li>Input the LDAP path in question.</li>
+            <li>Update the LDAP filter, if needed. &#160;It will pre-populate with the default Emergingsoft filter.</li>
+            <li>Click "Diagnose" to run.</li>
+        </ol>
+        <p>Result (Legacy) &amp; Result: &#160;These fields display the results from two different connection methods to connect to the LDAP path and retrieve users. &#160;The above screenshot shows a successful attempt - if any errors are encountered, they will be output in these textboxes and should be provided to Emergingsoft (a screenshot of the output, plus the results copy and pasted out of the window and into a ticket).</p>
+        <p>Current User: &#160;This displays the Distinguished Name for the current user.</p>
+        <p>Domain Controller(s): &#160;This displays any domain controllers that can be found. &#160;The discovered DCs are then pinged and checked for "Primary" status, both of which our output in this textbox.</p>
+        <h1 class="Heading1">Exchange Web Services (EWS) Diagnostics</h1>
+        <h2 class="Heading2">Background</h2>
+        <p>Emergingsoft has multiple products that integrate with Exchange, many of which utilize Exchange Web Services. &#160;This diagnostics tool can help identify URL, service account password, and permissions issues. &#160;As a first troubleshooting step, Emergingsoft has put this tool together to help with troubleshooting.</p>
+        <h2 class="Heading2">"Installation"</h2>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Download the attached zip file to any machine on your network.</li>
+            <li>Make sure that the zip is "Unblocked" once it is on the server.</li>
+            <li>Extract the files.</li>
+            <li>Double-click the "Emergingsoft.MeetingPlanner.ExchangeDiagnosticsTool.exe" to run the application.</li>
+        </ol>
+        <h2 class="Heading2">Functionality &amp; Use</h2>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Launching the tool will bring up the diagnostics interface. &#160;</li>
+            <li>Input the appropriate settings as they are in MeetingPlanner.</li>
+            <li>Click "Run." &#160;(Note: &#160;The tool may take several minutes to return a result, please be patient)</li>
+        </ol>
+        <p>Credential Validation: &#160;The first section of the diagnosis will contain credential validation. &#160;This is to establish that the service account has access, as well as which form of the credentials are required by the Exchange server.</p>
+        <p>Contact Email Address(es) Check: &#160;This confirms that the service account has an active mailbox in Exchange (a requirement for Emergingsoft's EWS integration).</p>
+        <p>Impersonation Check: &#160;This confirms if the service account can impersonate the provided email address. &#160;If no "Impersonation Email" is provided, this diagnostics section will not return.</p>
+        <p>Room Permissions: Delegate Check: &#160;This provides the users that have explicit delegate privileges. &#160; Any accounts with "Full Access," will not be listed here.</p>
+        <h2 class="Heading2">Download</h2>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">&#160;<a href="http://support.emergingsoft.com/attachments/token/71MQInGZvTUxX89bIpwZ3Ywj7/?name=EWS+Diagnostics.zip"><span class="Hyperlink">EWS Diagnostics.zip</span></a></li>
+        </ul>
+        <h1 class="Heading1">IIS Warmup Application (v1.0.0.1)</h1>
+        <p>Background</p>
+        <p>Many ASP.NET products have a long compilation time, which leads to a long loading time for the first user to access the website after an application pool is recycled. &#160;Emergingsoft's products are no exception, and also do quite a bit of application caching at this time. &#160;While this ultimately leads to a faster website, it can be a burden on that initial user. &#160;</p>
+        <p>In order to alleviate the issue, Emergingsoft has put together an IIS warmup application that can be run to simulate the first user. &#160;Once setup, the first user of the day will no longer experience this initial delay.</p>
+        <p>"Installation" &amp; Configuration</p>
+        <p>1) &#160;Download the attached zip file.</p>
+        <p>**First confirm that the Zip is not blocked by Windows. &#160;This can be done by right-clicking on the file, going to Properties and clicking "Unblock." &#160;If the "Unblock" button is not present, then the archive is already unblocked.</p>
+        <p>2) &#160;Extract the files into a new folder on the application server (typically: &#160;...\Emergingsoft\IisWarmup)</p>
+        <p>3) &#160;Open the configuration file and update the &lt;WarmUpElement&gt; URLs. &#160;(Note: If you wish to add any additional websites to the application, please feel free to do so).</p>
+        <p>4) &#160;Save and close.</p>
+        <p>5) &#160;Open the Administrative Tools &gt; Task Scheduler.</p>
+        <p>6) &#160;Create a new task. &#160;Necessary task configurations are listed below:</p>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">&#160;</li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="list-style-type: circle;">General &gt;&#160;"Run as...":&#160;&#160;This account will need to be an domain account with a MeetingPlanner user profile.</li>
+            <li style="list-style-type: circle;">General &gt;&#160;"Run whether user is logged on or not":&#160;&#160;Enable</li>
+            <li style="list-style-type: circle;">Triggers &gt;&#160;Daily at 1:00am:&#160;&#160;By default the Web Scheduler will recycle everyday at midnight. &#160;If this changes, you will want to modify the trigger or add additional entries. &#160;This should be run after every recycle.</li>
+            <li style="list-style-type: circle;">Actions&#160;&gt;&#160;Start a program:&#160;This should point to the .exe file that was part of the downloaded package.</li>
+        </ul>
+        <p>Updates &amp; Notes</p>
+        <p>v1.0.0.0</p>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">&#160;</li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="list-style-type: circle;">Initial release.</li>
+        </ul>
+        <p>v1.0.0.1</p>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">&#160;</li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="list-style-type: circle;">Application will ignore SSL certificate errors.</li>
+        </ul>
+        <h1 class="Heading1">Resource Mailbox Migration: Exchange Web Services</h1>
+        <h2 class="Heading2">Background&#160;</h2>
+        <p>Organizations that are currently using Exchange Resource Mailboxes to hold reservation information, and are looking to migrate their reservations into MeetingPlanner and sunset their Resource Mailboxes can use this tool to aid in the reservation export process. &#160;The utility uses Exchange Web Services to access each resource mailbox and create a csv file containing all reservation information. &#160;This allows manual intervention, if necessary, to update any subjects, owners or other information and will provide data in a specific format that can be easily processed by Emergingsoft and turned into a sql script that will import appropriately into MeetingPlanner.</p>
+        <p>Note: &#160;If you are using or evaluating Emergingsoft's Exchange Sync service, be mindful that the room configuration steps below will affect Exchange Sync. &#160;It may be necessary to stop the service during the setup, configuration, and processing steps with this tool.</p>
+        <h2 class="Heading2">Setup &amp; Configuration&#160;</h2>
+        <h3 class="Heading3">Prerequisites&#160;</h3>
+        <h4 class="Heading4">Applications</h4>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">Exchange 2010 or newer</li>
+            <li style="list-style-type: disc;">MeetingPlanner</li>
+            <li style="list-style-type: disc;">Web Scheduler</li>
+            <li style="list-style-type: disc;">Application Notifier Service (part of the Web Scheduler installation)</li>
+        </ul>
+        <h3 class="Heading3">Service Account</h3>
+        <p>The migration tool will require a service account setup that has Read access to the Resource Mailboxes that will be migrated.</p>
+        <p>Add-MailboxFolderPermission -Identity ResourecMailbox:\Calendar -User ServiceAcct&#160;-AccessRights ReadItems</p>
+        <h2 class="Heading2">Installation / Setup&#160;</h2>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Download the attached zip.</li>
+        </ol>
+        <p>**First confirm that the Zip is not blocked by Windows. &#160;This can be done by right-clicking on the file, going to Properties and clicking "Unblock." &#160;If the "Unblock" button is not present, then the archive is already unblocked.</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="2">
+            <li>Extract the files into a new folder within the Emergingsoft installation folder present on the application server for MeetingPlanner and the Web Scheduler (typically: &#160;C:\ Program Files (x86)\Emergingsoft\Exchange Migration).</li>
+            <li>Modify the Properties &gt; Security on the new folder so that the EWS service account has Full Control over the folder.</li>
+            <li>In the .config file, you will find two appSettings, which should be updated to meet your organization's needs:</li>
+        </ol>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">CsvRoomsListFilePath: &#160;If you are using the CSV method for identifying rooms to be migrated (recommended), this is where you will provide the file path to the csv file. &#160;There is more information in the next section for how to setup the file.</li>
+            <li style="list-style-type: disc;">EnableFuzzyLogic: &#160;If "fuzzy logic" should be used to match recurring reservation occurrences. &#160;Sometimes there are different Exchange Ids associated with these reservation instances and doing a match based on the subject and organizer can help resolve any issues. &#160;I would suggest disabling this option to start and enabling it later, if tests demonstrate a need.</li>
+            <li style="list-style-type: disc;">DaysBack: &#160;The number of days in the past for which the tool should retrieve reservations. &#160;This is based on the start date of each appointment &#160;(or the start date of the first occurrence in a recurring series).</li>
+            <li style="list-style-type: disc;">DaysForward: &#160;The number of days in the future for which the tool should retrieve reservations. &#160;This is based on the start date of each appointment (or the start date of the first occurrence in a recurring series).</li>
+        </ul>
+        <h2 class="Heading2">MeetingPlanner Configuration&#160;</h2>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>In a browser, open the Web Scheduler (<a href="http://server/scheduler" title="http://server/scheduler">http://server/scheduler</a>).</li>
+            <li>Go to the Configuration page (gear icon), and update the Ews Integration section as necessary.</li>
+            <li>Save all changes.</li>
+        </ol>
+        <h2 class="Heading2">Identifying Rooms to Migrate&#160;</h2>
+        <p>Please only choose one of the following methods.</p>
+        <p>Method 1: &#160;CSV File (recommended)</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Run the following SQL query to assist with the csv creation: &#160;SELECT room_id, room_name FROM room</li>
+            <li>Create a blank csv file with the following columns:</li>
+        </ol>
+        <p>-- SMTP Address: &#160;The Exchange SMTP address for the room</p>
+        <p>-- Room Name: &#160;The room name in MeetingPlanner</p>
+        <p>-- Room Id: &#160;The room id in MeetingPlanner</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="3">
+            <li>Complete the columns for all rooms that should be migrated.</li>
+            <li>Update the export tool's configuration file with the path to the file (see above).</li>
+        </ol>
+        <p>Method 2: &#160;MeetingPlanner</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Open MeetingPlanner Web (<a href="http://server/meetinglanner" title="http://server/meetinglanner">http://server/meetinglanner</a>).</li>
+            <li>Go to Setup &gt; General Settings &gt; Room.</li>
+            <li>Enable Exchange Sync.</li>
+            <li>For each room that will be migrated, do the following*:</li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="1">
+            <li>Go to Setup &gt; Rooms &gt; [select building] &gt; [select room] &gt; Exchange (or EBI depending on your current configuration).</li>
+        </ol>
+        <p>Image_008.png</p>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="2">
+            <li>Check the "Enable Room for Synchronization" box.</li>
+            <li>Enter the smtp address for the room.</li>
+            <li>Save.</li>
+        </ol>
+        <h2 class="Heading2">Process&#160;</h2>
+        <p>Once all of the above steps are complete, either log onto the application server as the service account and execute the .exe or hold down Shift as you right-click on the .exe and then select "Run as different user..." &#160;From here, you can use the credentials for the service account with Exchange permissions.</p>
+        <p>Once the application completes, you will find one csv file per Resource Mailbox created in the Exchange Migration folder. &#160;Please supply these csv files to our support team (via a new ticket), and our team can convert these to sql scripts for you. &#160;The sql script will then be able to be run against your MeetingPlanner database to complete the migration.</p>
+        <h2 class="Heading2">Download&#160;</h2>
+        <h1 class="Heading1">Scheduled Reservation Import</h1>
+        <p>Background</p>
+        <p>Some organizations may wish to regularly import reservations from a different tool or in bulk. &#160;A college, for instance, may need to add a new set of reservations for the new classes that are available each semester. &#160;This tool will allow an organization to complete those imports.</p>
+        <p>Installation &amp; Configuration</p>
+        <p>1) &#160;Download the attached zip.</p>
+        <p>**First confirm that the Zip is not blocked by Windows. &#160;This can be done by right-clicking on the file, going to Properties and clicking "Unblock." &#160;If the "Unblock" button is not present, then the archive is already unblocked.</p>
+        <p>2) &#160;Extract the files into a new folder on the application server (typically: &#160;...\Emergingsoft\ReservationImport).</p>
+        <p>3) &#160;Update the .config file:</p>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">&#160;</li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="list-style-type: circle;">DSN:&#160;&#160;Copy the DSN from the ... Emergingsoft \ MeetingPlannerWS \ web.config</li>
+            <li style="list-style-type: circle;">CSVPath: &#160;Enter the file path to the csv file that will include the reservations to me imported.</li>
+            <li style="list-style-type: circle;">ReportDir:&#160;&#160;Enter the path where the "report" should be placed. &#160;This will be an xml file containing any errors or deleted reservations, and should end with a "\".</li>
+            <li style="list-style-type: circle;">ConflictPriority:&#160;&#160;There are three options to choose from here... </li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="list-style-type: square;">Import: &#160;Reservations being imported will all be added to MeetingPlanner. &#160;Any conflicts will be deleted from MeetingPlanner and noted in the report file</li>
+            <li style="list-style-type: square;">MeetingPlanner: &#160;Reservations already existing in MeetingPlanner will take precedent. &#160;Any imported reservations in conflict will not be added, but will be noted in the report.</li>
+            <li style="list-style-type: square;">Log: &#160;If any conflicts are encountered, both reservations will be noted in the report - no reservations will be deleted.</li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="list-style-type: circle;">DefaultUserID:&#160;&#160;If a reservation is being imported and the user cannot be found based on the provided email address, the reservation will be mode for this account. &#160;This would correspond to the user_profile.user_id in the MeetingPlanner db.</li>
+            <li style="list-style-type: circle;">TimeZoneCode:&#160;&#160;This should be the three-letter timezone abbreviation representing the timezone that reservations are listed as in the import template.</li>
+        </ul>
+        <p>Process</p>
+        <p>Once the application is properly configured, follow these steps to complete the import:</p>
+        <p>1) &#160;Complete the import template (example is attached).</p>
+        <p>2) &#160;Save the csv file into the designated drop location.</p>
+        <p>3) &#160;Run the .exe application.</p>
+        <p>4) &#160;Review the report (sample attached).</p>
+        <p>&#160;</p>
+    </body>
+</html>

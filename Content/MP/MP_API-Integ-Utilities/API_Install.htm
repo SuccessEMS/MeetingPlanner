@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1815" MadCap:lastWidth="786" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+    <head>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>API Reservation Fee (XML&#160;"Drop") <br />Installation &amp; Configuration</h1>
+        <h2>Prerequisites</h2>
+        <ul>
+            <li>MeetingPlanner</li>
+            <li>.NET 4.0</li>
+        </ul>
+        <h3>Installation</h3>
+        <ol>
+            <li>Download and extract the following zip file here.</li>
+            <li> These files can be placed in their own folder within the ...\Emergingsoft folder on the application server.</li>
+            <li> Create a new View in the MeetingPlanner database, called "PublicReservations," containing the information you will want in the feed.  (Example can be found here)</li>
+            <li> Create a new task in the Task Scheduler</li>
+        </ol>
+        <h2>General</h2>
+        <p>Name the task and set the account to run under.</p>
+        <h2>Triggers</h2>
+        <p>Set the run interval for the process.</p>
+        <h2>Actions</h2>
+        <p>Select the application that should be run.  If you simply want to save the .xml file to disk, select the "ReservationFeed.exe" that is part of the zip file you previously downloaded.  If you require an FTP upload, please select the "GenerateAndUploadFeed.bat" file, which is also included in the zip (configuration options are laid out below).</p>
+        <h2>Conditions &amp; Settings</h2>
+        <p>These can be left with default settings.  Feel free to change any of these options as desired.</p>
+        <h2>XML Configuration</h2>
+        <p>All configuration options can be set within the ReservationFeedCmd.exe.config file.  Please see below for descriptions of each configuration option:</p>
+        <ul>
+            <li>DSN:  This can be copied from your ...\MeetingPlannerWeb\web.config</li>
+            <li>FilePath:  Where the xml file should be saved to disk (include a "\" at the end of the path). Note: file will be saved as "MeetingPlanner.xml.</li>
+            <li>TimeZoneCode:  Three letter abbreviation for the timezone that the reservation times should be converted to (ie "EST" for Eastern Time).  Columns in the DB view that are titled "Start" or "End" will be converted using this timezone code.</li>
+            <li>DateTimeFormat:  The format for the datetimes that are returned.  Format values should be found from the .NET site: http://msdn.microsoft.com/en-us/library/8kb3ddd4.aspx</li>
+        </ul>
+        <h2>FTP Configuration (if needed)</h2>
+        <p>The FTP configuration is all setup within the "GenerateAndUploadFeed.bat" file.  You will see the following items in the file (edit with Notepad):</p>
+        <ul>
+            <li>FTPUserName_Replace:  Replace with the FTP username setup for the .xml drop</li>
+            <li>FTPPassword_Replace:  Replace with the FTP password setup for the .xml drop</li>
+            <li>/FTP/File_Path_Replace:  Replace with the file path to where the .xml file should be uploaded to ("/" is the root directory)</li>
+            <li>FTPServerIP_Replace:  Replace with the IP address of the FTP server</li>
+        </ul>
+    </body>
+</html>

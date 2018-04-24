@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">Manually Configure Outlook to Connect with Proxy</h1>
+        <p>First make sure you meet the minimum software requirements and followed all the instructions from Microsoft. Most of the time, if you followed Microsoft's instructions (<a href="http://help.outlook.com/en-us/140/ms.exch.ecp.useoutlookanywhere.aspx"><span class="Hyperlink">http://help.outlook.com/en-us/140/ms.exch.ecp.useoutlookanywhere.aspx</span></a>) for configuring your domain for Office 365, your users should be able to connect to Exchange Online without any issues. If you do have issues with Outlook refusing to autodiscover the settings it needs to connect to Exchange Online, follow the directions below.</p>
+        <h3 class="Heading3">Determine your mailbox server name and proxy server URL</h3>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="1">
+            <li>Sign in to the Office 365 (if applicable) portal.&#160;</li>
+            <li>Click Outlook to open&#160;Microsoft Outlook Web App.&#160;</li>
+            <li>In the upper-right corner of the page, click the Help icon (the question mark), and then click About.&#160;</li>
+            <li>On the About page, locate and then note the Host address.</li>
+        </ol>
+        <h3 class="Heading3">Create an Mailbox Profile</h3>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="1">
+            <li>Click Start, click Control Panel, and then click Mail.&#160;</li>
+            <li>Click Show Profiles and then click Add.&#160;</li>
+            <li>Type a name for the profile, and then click OK.</li>
+        </ol>
+        <h3 class="Heading3">Manually Configure Server Settings</h3>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="1">
+            <li>Click on the check box and then click Next.</li>
+            <li>Select Microsoft Exchange, and then click Next.</li>
+        </ol>
+        <h3 class="Heading3">Microsoft Exchange Settings</h3>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="1">
+            <li>In the&#160;Server box, type the host address that you noted in step 1d.<br />Note: This name should be the first 10 characters of the host address together with "mailbox.outlook.com" If the host address is "ch1prd0610.outlook.com/owa," use "ch1prd0610.mailbox.outlook.com".&#160;</li>
+            <li>Make sure that the Use Cached Exchange Mode option is selected.&#160;</li>
+            <li>In the User Name box, type your user name (for example,&#160;<a href="mailto:alias@contoso.com"><span class="Hyperlink">alias@contoso.com</span></a>), and then click More Settings.</li>
+        </ol>
+        <h3 class="Heading3">Microsoft Exchange Connection Settings</h3>
+        <p>Check "Automatically detect connection state" and then click Apply</p>
+        <h3 class="Heading3">Microsoft Exchange Proxy Settings</h3>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="1">
+            <li>Click the Connection tab.&#160;</li>
+            <li>Make sure that the Connect to Microsoft Exchange using HTTP check box is selected, and then click Exchange Proxy Settings.&#160;</li>
+            <li>In the Use this URL to connect to my proxy server for Exchange box, type the host address that you noted in step 1d.&#160;<br />Note: Enter the host address without the "/owa".&#160;</li>
+            <li>Make sure that the Only connect to proxy servers that have this principal name in their certificate check box is selected, and then type msstd:outlook.com.&#160;</li>
+            <li>Click to select the On fast networks, connect using HTTP first, then connect using TCP/IP check box, and then click to select the On slow networks, connect using HTTP first, then connect using TCP/IP check box.&#160;</li>
+            <li>Under Proxy authentication settings, select Basic Authentication.&#160;</li>
+            <li>Click OK two times.&#160;</li>
+            <li>Click Check Names. When the server name and the user name are displayed with an underline, click Next.&#160;</li>
+            <li>Click Finish.</li>
+        </ol>
+    </body>
+</html>
