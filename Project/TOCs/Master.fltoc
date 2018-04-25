@@ -342,63 +342,7 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
-          <TocEntry
-            Title="[%=System.LinkedTitle%]"
-            Link="/Content/MP/WebScheduler/Install/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="[%=System.LinkedTitle%]"
-            Link="/Content/MP/WebScheduler/Install/Exchange Web Services EWS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="[%=System.LinkedTitle%]"
-            Link="/Content/MP/WebScheduler/Install/Impersonation 2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="[%=System.LinkedTitle%]"
-            Link="/Content/MP/WebScheduler/Install/Accessing EWS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="[%=System.LinkedTitle%]"
-            Link="/Content/MP/WebScheduler/Install/MeetingPlanner Applications.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-        </TocEntry>
+          ChapterNumberReset="continue"></TocEntry>
       </TocEntry>
       <TocEntry
         Title="User Guide"
