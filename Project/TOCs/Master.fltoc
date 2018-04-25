@@ -26,7 +26,7 @@
     <TocEntry
       Title="Installation Guide">
       <TocEntry
-        Title="Hardware Requirements"
+        Title="Hardware &amp; Software Requirements"
         Link="/Content/MP/MP/Install/MP6_HardwareResources.html"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
@@ -38,17 +38,6 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same" />
-      <TocEntry
-        Title="Software Prerequisites"
-        Link="/Content/MP/MP/Install/MP6_SoftwarePrerequisites.html"
-        BreakType="chapter"
-        AutoEndOnLeftPage="disabled"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
       <TocEntry
         Title="Server 2012 Prerequisite Setup"
         Link="/Content/MP/MP/Install/MP6_Server2012PrerequisiteSetup.html"
