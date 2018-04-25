@@ -183,17 +183,6 @@
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
       <TocEntry
-        Title="Delegate Reservations"
-        Link="/Content/MP/MP/User/MP6_DelegateReservations.html"
-        BreakType="chapter"
-        AutoEndOnLeftPage="disabled"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
-      <TocEntry
         Title="Add Resources"
         Link="/Content/MP/MP/User/MP6_AddResources.html"
         BreakType="chapter"
