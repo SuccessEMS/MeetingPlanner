@@ -186,6 +186,12 @@
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/MP/MP/Config/Application Email Templates.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Application - Reservation Attributes"
+          Link="/Content/MP/MP/Config/Reservation Attributes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="Application - Integrations EWS"
+          Link="/Content/MP/MP/Config/Integrations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
@@ -200,12 +206,6 @@
           Title="[%=System.LinkedTitle%]"
           Link="/Content/MP/MP/Config/Resources Videoconference.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/MP/MP/Config/Reservation Attributes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/MP/MP/Config/Integrations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="User Guide"
