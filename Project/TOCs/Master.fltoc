@@ -158,18 +158,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue">
-      <TocEntry
-        Title="Introduction"
-        Link="/Content/MP/MP/User/MP6_Introduction.html"
-        BreakType="chapter"
-        AutoEndOnLeftPage="disabled"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      Link="/Content/MP/MP/User/MP6_Introduction.html">
       <TocEntry
         Title="Quick Reserve/Features"
         Link="/Content/MP/MP/User/MP6_QuickReserveFeatures.html"
