@@ -1,22 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1">
-    <TocEntry Title="Hierarchy - Create a New Room" Link="/Content/Config/Hierarchy Create a New Room.htm" />
-    <TocEntry Title="Hierarchy - Combination Rooms" Link="/Content/Config/Hierarchy Combination Rooms.htm" />
-    <TocEntry Title="Hierarchy - View or Modify" Link="/Content/Config/Hierarchy View or Modify.htm" />
-    <TocEntry Title="Hierarchy - Equipment Storage" Link="/Content/Config/Hierarchy Equipment Storage.htm" />
-    <TocEntry Title="Resources - Room Setup Options" Link="/Content/Config/Resources Room Setup Options.htm" />
-    <TocEntry Title="Resources - Equipment Options/Portable Equipment" Link="/Content/Config/Resources Equipment Options.htm" />
-    <TocEntry Title="Resources – Caterers" Link="/Content/Config/Resources Caterers.htm" />
-    <TocEntry Title="Resources – Videoconference" Link="/Content/Config/Resources Videoconference.htm" />
-    <TocEntry Title="Application - Users &amp; Groups" Link="/Content/Config/Application Users Groups.htm" />
-    <TocEntry Title="Application - Email Templates" Link="/Content/Config/Application Email Templates.htm" />
-    <TocEntry Title="Reservation Attributes" Link="/Content/Config/Reservation Attributes.htm" />
-    <TocEntry Title="Core Configuration - Global Settings" Link="/Content/Config/Core Configuration Global.htm" />
-    <TocEntry Title="Core Configuration - Web Settings" Link="/Content/Config/Core Configuration Web Settings.htm" />
-    <TocEntry Title="Core Configuration - Universal Schedules (Room Groups)" Link="/Content/Config/Core Configuration Universal.htm" />
-    <TocEntry Title="Core Configuration - Forms Authentication" Link="/Content/Config/Core Configuration Forms Authentication.htm" />
-    <TocEntry Title="Core Configuration – Attachments" Link="/Content/Config/Core Configuration Attachments.htm" />
-    <TocEntry Title="Core Configuration - Outlook Add-in" Link="/Content/Config/Core Configuration Outlook.htm" />
-    <TocEntry Title="Application Code Tables" Link="/Content/Config/Application Code Tables.htm" />
-    <TocEntry Title="Integrations" Link="/Content/Config/Integrations.htm" />
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Hierarchy - Create a New Room"
+    Link="/Content/MP/MP/Config/Hierarchy Create a New Room.htm" />
+  <TocEntry
+    Title="Hierarchy - Combination Rooms"
+    Link="/Content/MP/MP/Config/Hierarchy Combination Rooms.htm" />
+  <TocEntry
+    Title="Hierarchy - View or Modify"
+    Link="/Content/MP/MP/Config/Hierarchy View or Modify.htm" />
+  <TocEntry
+    Title="Hierarchy - Equipment Storage"
+    Link="/Content/MP/MP/Config/Hierarchy Equipment Storage.htm" />
+  <TocEntry
+    Title="Resources - Room Setup Options"
+    Link="/Content/MP/MP/Config/Resources Room Setup Options.htm" />
+  <TocEntry
+    Title="Resources - Equipment Options/Portable Equipment"
+    Link="/Content/MP/MP/Config/Resources Equipment Options.htm" />
+  <TocEntry
+    Title="Resources – Caterers"
+    Link="/Content/MP/MP/Config/Resources Caterers.htm" />
+  <TocEntry
+    Title="Resources – Videoconference"
+    Link="/Content/MP/MP/Config/Resources Videoconference.htm" />
+  <TocEntry
+    Title="Application - Users &amp; Groups"
+    Link="/Content/MP/MP/Config/Application Users Groups.htm" />
+  <TocEntry
+    Title="Application - Email Templates"
+    Link="/Content/MP/MP/Config/Application Email Templates.htm" />
+  <TocEntry
+    Title="Reservation Attributes"
+    Link="/Content/MP/MP/Config/Reservation Attributes.htm" />
+  <TocEntry
+    Title="Core Configuration - Global Settings"
+    Link="/Content/MP/MP/Config/Core Configuration Global.htm" />
+  <TocEntry
+    Title="Core Configuration - Web Settings"
+    Link="/Content/MP/MP/Config/Core Configuration Web Settings.htm" />
+  <TocEntry
+    Title="Core Configuration - Universal Schedules (Room Groups)"
+    Link="/Content/MP/MP/Config/Core Configuration Universal.htm" />
+  <TocEntry
+    Title="Core Configuration - Forms Authentication"
+    Link="/Content/MP/MP/Config/Core Configuration Forms Authentication.htm" />
+  <TocEntry
+    Title="Core Configuration – Attachments"
+    Link="/Content/MP/MP/Config/Core Configuration Attachments.htm" />
+  <TocEntry
+    Title="Core Configuration - Outlook Add-in"
+    Link="/Content/MP/MP/Config/Core Configuration Outlook.htm" />
+  <TocEntry
+    Title="Application Code Tables"
+    Link="/Content/MP/MP/Config/Application Code Tables.htm" />
+  <TocEntry
+    Title="Integrations"
+    Link="/Content/MP/MP/Config/Integrations.htm" />
 </CatapultToc>
