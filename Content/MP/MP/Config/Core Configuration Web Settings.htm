@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">Core Configuration - Web Settings</h1>
+        <h3 class="Heading3">Web Settings</h3>
+        <p>(Application&gt;Core Configuration&gt;Web Settings)</p>
+        <p>The settings that affect general business rules and formatting options in the Web Scheduler ONLY.</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Customize the name of the Primary Resource Type Singular (ie. Room).</li>
+        </ol>
+        <p>The primary resource type identifies the name of the main resource reflected from the ‘Reservation Manager’ page and messages. </p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="2">
+            <li>Enter the Primary Resource Type Plural (ie. Rooms).</li>
+        </ol>
+        <p>The plural form of the primary resource type is reflected in pop up messages when applicable. </p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="3">
+            <li>Select either 12 or 24 (military time) from the Hour format dropdown field.</li>
+        </ol>
+        <p>The hour format allows a user to toggle between either 12-hour or 24-hour formatting within the single day view of the calendar interface.&#160; </p>
+        <p>Note: The ‘Reservation Manager’ window will adhere to the computer’s/browser’s localization settings. </p>
+        <p>&#160;</p>
+        <p>Important! &#160;An IIS reset is necessary to view immediate Hour Format setting changes.</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="4">
+            <li>Select the Daily View Sort By from the dropdown.</li>
+        </ol>
+        <p>The feature organizes the rooms on the calendar by either building or building and floor.</p>
+        <p>Building and floor is applicable ONLY if buildings have floors in MP. </p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="5">
+            <li>Enter the Public/Default User Profile (if applicable to your organization).</li>
+        </ol>
+        <p>&#160; The default profile will be usedCreating a Public/Default UserCreating a Public/Default User Group</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="6">
+            <li>Enter the Refresh Interval in seconds to identify the interval at which Web Scheduler will refresh the display.</li>
+        </ol>
+        <p>Enter 0 to disable the function. (Beta)&#160; The Web Scheduler can be setup to refresh on a regular interval.&#160; This will allow room statuses and reservations to be refreshed every X seconds. &#160;</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="7">
+            <li>Enable Public Meeting Mode to allow public view of the Web Scheduler calendar.</li>
+        </ol>
+        <p>By enabling Public Meeting Mode, a checkbox within the ‘Reservation Manager’ window will appear allowing users to make a reservation public. All public reservations are displayed on the public Web Scheduler site. </p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="8">
+            <li>Enable Show Capacity in Daily View to view room capacity from the Web Scheduler calendar.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="9">
+            <li>Enable Show Notes.</li>
+        </ol>
+        <p>The notes box is a free form text box available so that a user can include additional information with their reservation. Information from the note box is saved with the reservation, accessible via reports, and email notifications.</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="10">
+            <li>Enable Require Subject.</li>
+        </ol>
+        <p>This will force the user to include the subject of the meeting in order to complete the reservation. </p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="11">
+            <li>Enable ‘Invitees’ Functionality on Reservation Form to enable the attendees field in the ‘Reservation Manager’ window.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="12">
+            <li>Enable User Availability Search to view a user’s availability from the Web Scheduler calendar.</li>
+        </ol>
+        <p>Beta: This setting allows users to search Exchange, via EWS, for user calendar information. </p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="13">
+            <li>Select Save.</li>
+        </ol>
+        <h3 class="Heading3">Web Theme</h3>
+        <p>(Application&gt;Core Configuration&gt;Web Theme)</p>
+        <p>Utilize the theme color fields to customize the color scheme of the calendar and types of reservations. (Select colors from a source such as colorpicker.) All colors must be entered in hex format (ie. #990000).</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Upload a Logo or Choose File for selection.</li>
+        </ol>
+        <p>&#160;&#160;&#160;&#160;&#160; (.png only.) Logos will appear in the top, left corner of the main page / banner.</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="2">
+            <li>Customize the Page Header Color.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="3">
+            <li>Customize the Calendar Color.</li>
+        </ol>
+        <p>&#160; The calendar color is the cell color of the calendar headers. </p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="4">
+            <li>Customize the Calendar Text Color.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="5">
+            <li>Customize the Cell Color (Business Hours).</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="6">
+            <li>Customize the Cell Color (Non-Business Hours).</li>
+        </ol>
+        <p>Business hours are determined by the current user’s business hours in MP. &#160;See User General Settings.</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="7">
+            <li>Customize the Event Color (default); the body of the reservation on the calendar.</li>
+        </ol>
+        <p>The event color is the default color. Although, the color can also be modified based on the selection a user makes for Activity Code #1.&#160; </p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="8">
+            <li>Customize the Event Header Color (Default); the line that borders the top of the reservation on the calendar.</li>
+        </ol>
+        <p>The event header color is the default color. Although, the color can be modified based on the selection a user makes for Activity Code #2.&#160; </p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="9">
+            <li>Customize the Event Text Color; the body of the reservation on the calendar.</li>
+        </ol>
+        <p>The text color for a displayed reservation.</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="10">
+            <li>Customize the Restricted Room Color.</li>
+        </ol>
+        <p>The default behavior will be changed if Room Statuses are enabled.&#160; In that case, this “cell” will contain the color of the current status, and clicking on the “cell” will open a dropdown to change the status.</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="11">
+            <li>Select Save.</li>
+        </ol>
+    </body>
+</html>

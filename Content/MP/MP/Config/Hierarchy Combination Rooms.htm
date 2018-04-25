@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">Hierarchy - Combination Rooms</h1>
+        <p>(Hierarchy&gt;Location&amp;Rooms&gt;+Combination)</p>
+        <p>Two or more rooms can be linked to create combination rooms in the MP Add-in application ONLY. All combined rooms must be created manually. Read through all of the combined room section before creating combination rooms.</p>
+        <p>Important! Setup, force room setup, buffers, and recurring reservation functionality is unique to combined rooms.</p>
+        <h4 class="Heading4">Combination Room Setup Options</h4>
+        <h5 class="Heading5">Using Existing Single Room Setup Options</h5>
+        <p>Combination rooms inherit the setup options of the existing single rooms at the time the combination room is created. </p>
+        <p>However, if the same setup types have different capacities, the combination room will list types with capacities as separate setup options.</p>
+        <h5 class="Heading5">Creating New Setup Options for Combination Rooms</h5>
+        <p>&#160;If the setup options of a combination room are unique to those of the single rooms, make temporary changes to the single room setups to create the desired combination room. Once combination rooms are created, all setup options are frozen regardless of future modifications made to the setup options of single rooms. </p>
+        <p>Note: The single room setup options that are altered to create the desired combination room must be reset after the new combination room has been saved. </p>
+        <h4 class="Heading4">Force Room Setup</h4>
+        <p>To force the user to select a room setup for a combination room, all of the existing single rooms must have the option enabled. </p>
+        <p>Important! The Force Room Setup option is not a frozen combination room setting; if the single room setting is changed, it will also be changed in the combo room. </p>
+        <h4 class="Heading4">Setup Buffers</h4>
+        <p>Combination rooms inherit the setup buffer time of the existing single rooms at the time the combination room is created. When creating a combination room, make sure the buffer times are the same for the existing single rooms being combined.</p>
+        <p>Important! The Setup Buffer is not a frozen combination room setting; if the single room setting is changed, it will also be changed in the combo room. </p>
+        <h4 class="Heading4">Equipment</h4>
+        <p>Equipment is not associated with combination rooms (neither as deliverable or equipment that is fixed in a room). &#160;From the Add-in, best practices require that users book the combo room from the Room Search tab, and then move to the Equipment tab. &#160;When reserving equipment from the Equipment tab, combination rooms will not show up as valid rooms to deliver equipment to. &#160;Instead, you will need to select one of the rooms that makes up the combo room. &#160;Ultimately, MP needs to have a single room to deliver equipment to.</p>
+        <h4 class="Heading4">Recurring Reservations</h4>
+        <p>Combination rooms cannot be reserved for recurring reservations. &#160;Instead, reserve individual rooms to make up the combination room. &#160;</p>
+        <h4 class="Heading4">Creating Combined Rooms</h4>
+        <h5 class="Heading5">General</h5>
+        <p>(Hierarchy&gt;Location&amp;Rooms&gt;+Combination&gt;General)</p>
+        <p>Important! The combination room functionality applies to MP Add-in ONLY.</p>
+        <p>1. Select General.</p>
+        <p>3. Enter the Room Combination Name.</p>
+        <p>4. Enter the Lowest and Highest Capacity Range.</p>
+        <p>&#160;&#160;&#160;&#160; Based on single rooms being combined. </p>
+        <p>5. Enter the minimum and maximum amount of time (in minutes) that a user can reserve the combo room in the Duration Min. and Max. fields.</p>
+        <h5 class="Heading5">Combined Rooms</h5>
+        <p>(Hierarchy&gt;Location&amp;Rooms&gt;+Combination&gt;Combined Rooms)</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Select Combined Rooms.</li>
+            <li>Select the Building dropdown field and scroll to the building that will house the new combined room.</li>
+            <li>Highlight and Add the rooms to combine.</li>
+            <li>Select Save.</li>
+        </ol>
+        <h5 class="Heading5">Setup</h5>
+        <p>(Hierarchy&gt;Location&amp;Rooms&gt;+Combination&gt; Setup)</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Select Setup.</li>
+            <li>Verify Setup options.</li>
+        </ol>
+        <p>Make sure the setup for the individual rooms are the same so that the setup can be shared as combined room.</p>
+        <h5 class="Heading5">Billing</h5>
+        <p>(Hierarchy&gt;Location&amp;Rooms&gt;+Combination&gt;Billing)</p>
+        <p>The billing field is typically used to track room usage costs. The information can be made available in a report.</p>
+        <p>The field can be used to track items other than rooms.</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Select Billing.</li>
+            <li>Select Insert.</li>
+            <li>Enter the Billing Code.</li>
+            <li>Enter the Cost per Hour.</li>
+            <li>Enter the Cost per Day.</li>
+            <li>Select Insert and Save.&#160;</li>
+        </ol>
+    </body>
+</html>

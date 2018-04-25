@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-04-25T10:30:40.8858626-06:00"
+  ProjectName="MeetingPlanner"
+  ProjectFolder="C:\Users\megan.laub\Documents\My Projects\MeetingPlanner\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2018-04-25T10:31:02.1967026-06:00">
+  <Files>
+    <Url
+      Source="../../../../Docs/MigrateWordDocs/Meeting Planner/Config.docx"
+      AbsoluteSource="file:///C:/Users/megan.laub/Documents/Docs/MigrateWordDocs/Meeting Planner/Config.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Config/Hierarchy Create a New Room.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Hierarchy Combination Rooms.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Hierarchy View or Modify.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Hierarchy Equipment Storage.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Resources Room Setup Options.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Resources Equipment Options.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Resources Caterers.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Resources Videoconference.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Application Users Groups.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Application Email Templates.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Reservation Attributes.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Core Configuration Global.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Core Configuration Web Settings.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Core Configuration Universal.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Core Configuration Forms Authentication.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Core Configuration Attachments.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Core Configuration Outlook.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Application Code Tables.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Config/Integrations.htm"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../TOCs/Config.fltoc"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Config.css"
+      TimeStamp="4/25/2018 10:30:59 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="Heading 5" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Hyperlink" />
+  </UsedCharacterStyles>
+</MsWordImport>

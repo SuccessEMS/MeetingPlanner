@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">Reservation Attributes</h1>
+        <p>(Application&gt;Reservation Attributes&gt;Request Form Fields)</p>
+        <h3 class="Heading3">Request Form Fields</h3>
+        <p>The request form will allow a user, with restricted MP access, to request a resource reservation. An administrator will be assigned to accept or deny such requests. It is up to the organization to inform the requestor of the status of their requested reservation.</p>
+        <p>&#160;</p>
+        <p>A user profile and group to include the ‘create request’ application item (security permission) will need to be created. Users who utilize the request form will need to be associated with the group. See Creating a New User and Creating a New User Group.</p>
+        <p>&#160;</p>
+        <p>Customize and enable the request form fields to collect the necessary information from the requester.</p>
+        <h3 class="Heading3">Billing Codes</h3>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Enable Show Billing Information to view field from the reservation page.</li>
+            <li>Enable Billing Information Required to force a user to enter a billing code in order to create a reservation.</li>
+            <li>Enable Validate Billing Information to verify billing codes.</li>
+        </ol>
+        <p>When utilizing the feature, MP will only allow reservations to be made when a preapproved billing code has been entered. Billing codes must be entered via a script or in #4 below in order for MP to carryout the billing validation function.</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="4">
+            <li>Add Valid Billing Codes.</li>
+        </ol>
+        <p>A list of billing codes must be provided, via a support ticket, to utilize this feature or they can manually be entered. Billing codes (provided) will be scripted by the EmergingSoft support team and returned for import. (Billing codes can be provided using an excel worksheet, word doc, ect.)</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="5">
+            <li>Select Save.</li>
+        </ol>
+        <h3 class="Heading3">Activity Codes</h3>
+        <p>&#160;&#160;Activity Codes can be customized and used to collect additional meeting information. A list of activity codes must be provided, via a support ticket, to utilize this feature or they can manually be entered. Activity codes can be scripted by the EmergingSoft support team and returned for import. (Activity code lists can be provided using an excel worksheet, word doc, ect.)</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Enable Select Default Activity to identify the activity code MP will automatically default to.</li>
+        </ol>
+        <p>When default activity is enabled, MP will automatically populate the field with the first activity choice on the list. (ie. if Activity Code choices are: 1111, 2222, 3333, the default will be 1111 as it is the first option listed.)</p>
+        <p>&#160;</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="2">
+            <li>Enable Mandatory Code Selection to automatically populate a default code if the user does not make an activity code selection.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="3">
+            <li>Name Activity Code 1 field and Enable the setting to view and utilize the field from the MP Reservation window. The Required field will automatically become enabled when Mandatory Code Selection is utilized.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="4">
+            <li>Repeat steps 1 – 3 above to utilize additional Activity Code fields.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="5">
+            <li>Select Save.</li>
+        </ol>
+        <h3 class="Heading3">Client Matter</h3>
+        <p>The client matter feature includes two related dropdown boxes. The selection made in the first dropdown will determine the options that are available in the second dropdown.&#160; A list of client matter data must be provided via the template and a support ticket, to utilize this feature or they can manually be entered. Client matter will be scripted by the EmergingSoft support team and returned for import. <a href="http://support.emergingsoft.com/entries/70842113-Bulk-Data-Migration-Template-Client-Matter"><span class="Hyperlink">http://support.emergingsoft.com/entries/70842113-Bulk-Data-Migration-Template-Client-Matter</span></a>).</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Enable Use Partial C/M Client Search to allow partial search capabilities.</li>
+        </ol>
+        <p>Partial search allows a user to enter the first few characters of their search and MP will return the selection accordingly.</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="2">
+            <li>Enable the setting to view the field from the MP ‘Reservation Manager” window. Has been a</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="3">
+            <li>Enable Required to force MP to default the first set of data from the Client data list unless: a) the user makes a different selection, or b) a billing code is included in the user’s profile.&#160;</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="4">
+            <li>Name the Client field (ie. Dept).</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="5">
+            <li>Name the Matter field (ie. Code).</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="6">
+            <li>Enter the Available Values and Add.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="7">
+            <li>Select Save.</li>
+        </ol>
+        <h3 class="Heading3">Custom Fields</h3>
+        <p>The custom field feature is used to capture additional reservation data.</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Enable Used, to view and use the field from the ‘Manager Reservation’ window.</li>
+            <li>Enable Required to force a user to enter data in the field in order to complete the reservation.</li>
+            <li>Enter the Label field name.</li>
+            <li>Include a Default field name that MP will automatically default to if the user bypasses field entry.</li>
+        </ol>
+        <p>Default entry needs to be made regardless if the field is set to required in number 2 above.</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="5">
+            <li>Repeat steps 1-4 above to utilize the remaining custom fields available.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="6">
+            <li>Select Save.</li>
+        </ol>
+        <p>I</p>
+    </body>
+</html>
