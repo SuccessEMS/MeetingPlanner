@@ -1,14 +1,100 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');" MadCap:lastBlockDepth="4" MadCap:lastHeight="6411" MadCap:lastWidth="914">
     <head><title mt-export-translate="no">Server 2012 Prerequisite Setup</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="false" />
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="mt-export-title">Server 2012 Prerequisite Setup</h1><pre class="script" mt-export-translate="no" xml:space="preserve">
-wiki.page("/MeetingPlanner/10-MeetingPlanner_5/03-Installing_MeetingPlanner_5/01-MP_Prerequisites_to_Installation_and_System_Requirements/04-Server_2012_Prerequisite_Setup")</pre> <p class="mt-script-comment">Page summary display</p> <pre class="script" mt-export-translate="no" xml:space="preserve">
-wiki.page("MeetingPlanner/10-MeetingPlanner_5/03-Installing_MeetingPlanner_5/01-MP_Prerequisites_to_Installation_and_System_Requirements/02-Hardware__Requirements", "Server 2012 Prerequisite Setup")</pre> <pre class="script" mt-export-translate="no" xml:space="preserve">
-template('MindTouch/Controls/PageOverview');
-</pre> <hr class="mt-export-separator" /><p class="template:tag-insert"><strong>Page tags: </strong><a mt-export-translate="no">article:topic</a><a>MP 6</a><a>MP 6 Prerequisites to Installation and System Requirements</a><a>MP 6 Server 2012 Prerequisite Setup</a><a mt-export-translate="no">persona:UserFacilitiesMgr</a></p></body>
+        <h1 class="mt-export-title">Server 2012 Prerequisite Setup</h1>
+        <h2>Application Server Prerequisite Setup</h2>
+        <h3>Web Server (Role)</h3>
+        <ol>
+            <li>Go to Start &gt; Control Panel &gt; Programs and Features.</li>
+            <li>Select Turn Windows Features on or off.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/mEETINGPLANNERinstall1.png" />​</p>
+        <ol MadCap:continue="true">
+            <li>Select Add roles and features from the ‘Server Manager/Dashboard’ window.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/meetingplannerinstall2.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Select Installation Type, and Role-based or feature-based installation from the 'Add Roles and Features Wizard' window, and Next.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/meetingplannerinstall3.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Select the server that MeetingPlanner will be installed on, and Next.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/meetingplannerinstall4.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>From Server Roles of the ‘Add Roles and Features Wizard’ window, make sure roles i-v indicated below are enabled and installed, then select Next. Use the scroll bar on the right side of the ‘Add Roles and Features Wizard’ window to navigate. Use the file path in boldface to locate the required roles.</li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li>i. Windows Authentication (Web Server (IIS)&gt;Web Server&gt;Security&gt;Windows Authentication-Installed).</li>
+            <li>ii. ASP.NET 4.5 (Web Server (IIS)&gt;Web Server&gt;Application Development&gt;ASP.NET 4.5 Installed).</li>
+            <li>iii.  IIS 6 Metabase Compatibility (Web Server (IIS)&gt;Web Server&gt;Management Tools&gt;IIS 6 Management Compatibility&gt;IIS 6 Metabase Compatibility-Installed).</li>
+            <li>iv. NET Framework 4.5 (Application Server&gt;.Net Framework 4.5-Installed).</li>
+            <li>v. Web Server (IIS) Support(Application Server&gt;Web Server IIS Support-Installed).</li>
+        </ol>
+        <h2>Message Queuing Services</h2>
+        <p>(Message Queuing&gt;Message Queuing Services&gt;Message Queuing Server/Directory Service Integration/HTTP Support):</p>
+        <ol start="7">
+            <li>Select Features from the ‘Add Roles and Features Wizard’ window and verify the following prerequisites are selected:</li>
+        </ol>
+        <ul>
+            <li>Message Queuing Server</li>
+            <li>Directory Service Integration</li>
+            <li>HTTP Support</li>
+        </ul>
+        <ol start="8">
+            <li>Enable to add prerequisites, and select Next. If the prerequisites are already enabled, Cancel to exit.</li>
+            <li>From Confirmation, select Install.</li>
+            <li>From Results, view Feature Installation, and Close.</li>
+            <li>Restart the server if required.</li>
+        </ol>
+        <h2>Internet Information Services (IIS)</h2>
+        <p>(SQL Server Management&gt;Default Web Site&gt;URL Rewrite)</p>
+        <ol start="12">
+            <li>Verify the URL Rewrite Module in the ‘IIS Manager’ Window.</li>
+        </ol>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;For information on installing the module, see link: http://www.iis.net/downloads/microsoft/url-rewrite.</p>
+        <p>
+            <img src="../../../Resources/Images/meetingplannerinstall6.png" />
+        </p>
+        <p>Verify the Default Web Site bindings. The ‘Default Web Site’ bindings automatically default as shown below. v</p>
+        <p>TCP Port: 80</p>
+        <p>IP Address: (All Unassigned)</p>
+        <p>Host Header Value: &lt;none&gt;</p>
+        <p>Microsoft .NET Framework</p>
+        <p>Select Start &gt; Run.</p>
+        <p>Enter ‘regedit’ and OK.</p>
+        <p>16.  Navigate to the NDP node in the ‘Registry Editor’:  (HKEY_LOCAL_MACHINE &gt;Software &gt;Wow6432Node&gt;Microsoft &gt;NET Framework Setup&gt; NDP).</p>
+        <p>17. Select v2.0.5.727.</p>
+        <p>18. Verify .NET 2.0 is installed.</p>
+        <p>Important! If the “Install” key does not equal “1,” please install .NET 2.0.</p>
+        <p>19. Verify .NET 4.0 is installed.</p>
+        <p>(HKEY_LOCAL_MACHINE &gt;Software &gt;Wow6432Node&gt;Microsoft &gt;NET Framework Setup&gt; NDP&gt;v4.0).</p>
+        <p>20. Select Client.</p>
+        <p>Important! If the “Install” key does not equal “1,” please install .NET 4.0.</p>
+        <p>Supporting Microsoft References:</p>
+        <p>http://msdn.microsoft.com/en-us/kb/kbarticle.aspx?id=318785</p>
+        <p>http://msdn.microsoft.com/en-us/library/hh925568.aspx</p>
+        <p>Database Server Prerequisite Setup</p>
+        <p>SQL Server</p>
+        <p>1. Enable Mixed Authentication Mode</p>
+        <p>i.Open ‘Microsoft SQL Server Management Studio’ and Connect.</p>
+        <p>ii.Right click on the server name in the ‘Object Explorer’ window.</p>
+        <p>iii. Select Properties &gt;Security.</p>
+        <p>iv.Select SQL Server and Windows Authentication Mode and OK.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
 </html>
