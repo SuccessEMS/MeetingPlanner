@@ -189,10 +189,7 @@
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/MP/MP/Config/Reservation Attributes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-        <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Resources Room Setup Options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/MP/MP/Config/Resources Room Setup Options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/MP/MP/Config/Resources Equipment Options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -203,6 +200,9 @@
           Title="[%=System.LinkedTitle%]"
           Link="/Content/MP/MP/Config/Resources Videoconference.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/MP/MP/Config/Reservation Attributes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MP/MP/Config/Integrations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
