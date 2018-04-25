@@ -24,7 +24,8 @@
       VolumeNumberReset="same"
       ChapterNumberReset="continue" />
     <TocEntry
-      Title="Installation Guide">
+      Title="Installation Guide"
+      Link="/Content/MP/MP/Install/InstallationGuideIntroduction.htm">
       <TocEntry
         Title="Hardware &amp; Software Requirements"
         Link="/Content/MP/MP/Install/MP6_HardwareResources.html"

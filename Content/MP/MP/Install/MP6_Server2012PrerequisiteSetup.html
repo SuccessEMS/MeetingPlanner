@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');" MadCap:lastBlockDepth="4" MadCap:lastHeight="6411" MadCap:lastWidth="914">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');" MadCap:lastBlockDepth="4" MadCap:lastHeight="6840" MadCap:lastWidth="914">
     <head><title mt-export-translate="no">Server 2012 Prerequisite Setup</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="false" />
@@ -68,33 +68,56 @@
         <p>
             <img src="../../../Resources/Images/meetingplannerinstall6.png" />
         </p>
-        <p>Verify the Default Web Site bindings. The ‘Default Web Site’ bindings automatically default as shown below. v</p>
-        <p>TCP Port: 80</p>
-        <p>IP Address: (All Unassigned)</p>
-        <p>Host Header Value: &lt;none&gt;</p>
-        <p>Microsoft .NET Framework</p>
-        <p>Select Start &gt; Run.</p>
-        <p>Enter ‘regedit’ and OK.</p>
-        <p>16.  Navigate to the NDP node in the ‘Registry Editor’:  (HKEY_LOCAL_MACHINE &gt;Software &gt;Wow6432Node&gt;Microsoft &gt;NET Framework Setup&gt; NDP).</p>
-        <p>17. Select v2.0.5.727.</p>
-        <p>18. Verify .NET 2.0 is installed.</p>
-        <p>Important! If the “Install” key does not equal “1,” please install .NET 2.0.</p>
-        <p>19. Verify .NET 4.0 is installed.</p>
-        <p>(HKEY_LOCAL_MACHINE &gt;Software &gt;Wow6432Node&gt;Microsoft &gt;NET Framework Setup&gt; NDP&gt;v4.0).</p>
-        <p>20. Select Client.</p>
-        <p>Important! If the “Install” key does not equal “1,” please install .NET 4.0.</p>
-        <p>Supporting Microsoft References:</p>
-        <p>http://msdn.microsoft.com/en-us/kb/kbarticle.aspx?id=318785</p>
-        <p>http://msdn.microsoft.com/en-us/library/hh925568.aspx</p>
-        <p>Database Server Prerequisite Setup</p>
-        <p>SQL Server</p>
-        <p>1. Enable Mixed Authentication Mode</p>
-        <p>i.Open ‘Microsoft SQL Server Management Studio’ and Connect.</p>
-        <p>ii.Right click on the server name in the ‘Object Explorer’ window.</p>
-        <p>iii. Select Properties &gt;Security.</p>
-        <p>iv.Select SQL Server and Windows Authentication Mode and OK.</p>
-        <p>&#160;</p>
-        <p>&#160;</p>
-        <p>&#160;</p>
+        <ol MadCap:continue="true">
+            <li>Verify the Default Web Site bindings. The ‘Default Web Site’ bindings automatically default as shown below. After installation, the values can be changed.</li>
+        </ol>
+        <ul>
+            <li>TCP Port: 80</li>
+            <li>IP Address: (All Unassigned)</li>
+            <li>Host Header Value: &lt;none&gt;</li>
+        </ul>
+        <h2>Microsoft .NET Framework</h2>
+        <ol>
+            <li>Select Start &gt; Run.</li>
+            <li>Enter ‘regedit’ and OK.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/meetingplannerinstall7.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li> Navigate to the NDP node in the ‘Registry Editor’:  (HKEY_LOCAL_MACHINE &gt;Software &gt;Wow6432Node&gt;Microsoft &gt;NET Framework Setup&gt; NDP).</li>
+            <li>Select v2.0.5.727.</li>
+            <li>Verify .NET 2.0 is installed.</li>
+        </ol>
+        <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;If the “Install” key does not equal “1,” please install .NET 2.0.</p>
+        <ol MadCap:continue="true">
+            <li>Verify .NET 4.0 is installed. (HKEY_LOCAL_MACHINE &gt;Software &gt;Wow6432Node&gt;Microsoft &gt;NET Framework Setup&gt; NDP&gt;v4.0).</li>
+            <li>Select Client.</li>
+        </ol>
+        <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;If the “Install” key does not equal “1,” please install .NET 4.0.</p>
+        <h4>Supporting Microsoft References:</h4>
+        <ul>
+            <li>http://msdn.microsoft.com/en-us/kb/kbarticle.aspx?id=318785</li>
+            <li>http://msdn.microsoft.com/en-us/library/hh925568.aspx</li>
+        </ul>
+        <h2>Database Server Prerequisite Setup</h2>
+        <h3>SQL Server</h3>
+        <ol>
+            <li>Enable Mixed Authentication Mode: </li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li>Open ‘Microsoft SQL Server Management Studio’ and Connect.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/meetingplannerinstall8.png" />
+        </p>
+        <ol style="list-style-type: lower-alpha;" MadCap:continue="true">
+            <li>Right click on the server name in the ‘Object Explorer’ window.</li>
+            <li>Select Properties &gt;Security.</li>
+            <li>Select SQL Server and Windows Authentication Mode and OK.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/meetingplannerinstall9.png" />
+        </p>
     </body>
 </html>
