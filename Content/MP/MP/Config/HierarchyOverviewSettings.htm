@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2132" MadCap:lastWidth="1042">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="7242" MadCap:lastWidth="1008">
     <head>
     </head>
     <body>
@@ -11,22 +11,95 @@
 Organizations can create a four level hierarchy by giving the building and campus different names. </p>
         <p>3 Level Hierarchy</p>
         <ol class="number-list">
-            <li>    State (level 1),</li>
-            <li> City (level 2),</li>
-            <li> Building/Campus (level 3 and 4), and Rooms.</li>
+            <li>    State (level 1)</li>
+            <li> City (level 2)</li>
+            <li> Building/Campus (level 3 and 4) and Rooms</li>
         </ol>
-        <p class="title">Add-in View (3 level hierarchy)</p>
+        <h3>Add-in View (3 level hierarchy)</h3>
         <p class="title">
             <img src="../images/B_Configuration/MPConfig1.png" />
         </p>
         <h3>Web Scheduler Calendar View (Hierarchy)</h3>
         <p>From the Web Scheduler, the hierarchy is hidden (in that it is not visible from the calendar).</p>
         <p>
-            <img src="../images/B_Configuration/MPConfig2.png" />
+            <img src="../images/B_Configuration/MPConfig2.png" class="PDFlarge" />
         </p>
         <h2>Hierarchy</h2>
-        <p>A Room and Equipment template (to include all levels of the hierarchy and fixed room equipment) is recommended for initial import: http://support.emergingsoft.com/entries/25824983-Bulk-Data-Migration-Template-Equipment. Thereafter, use the instructions provided below to make changes to the hierarchy.</p>
-        <p>Note: The hierarchy will not be visible from either the Add-in or Web Scheduler applications until buildings, locations (levels 1-3 or 1-4), and rooms have been created.</p>
-        <p>Example of 3- Level Hierarchy</p>
+        <p>A Room and Equipment template (to include all levels of the hierarchy and fixed room equipment) is recommended for initial import. Thereafter, use the instructions provided below to make changes to the hierarchy.</p>
+        <p class="box-note"><span class="bold">Note:</span> The hierarchy will not be visible from either the Add-in or Web Scheduler applications until buildings, locations (levels 1-3 or 1-4), and rooms have been created.</p>
+        <h3>Example of 3-Level Hierarchy</h3>
+        <p>
+            <img src="../images/B_Configuration/MPConfig3.png" class="PDFlarge" />
+        </p>
+        <h3>Example of 4-Level Hierarchy</h3>
+        <p>
+            <img src="../images/B_Configuration/MPConfig4.png" class="PDFlarge" />
+        </p>
+        <h2>Buildings</h2>
+        <p>(Hierarchy &gt; Locations&amp;Rooms &gt; +Building &gt; General)</p>
+        <h3>Building Editor</h3>
+        <p>The first step to creating the hierarchy is to name the building (level 3 and/or 4 depending on if you are creating a 3 or 4 level hierarchy). The building level will house an identified group of rooms from which a user will search.</p>
+        <p>The ‘building’ level of the hierarchy does not have to be an actual building. If a floor, etc. makes more sense, name the level that instead.</p>
+        <ol class="number-list">
+            <li>    Enter the Building Name.</li>
+            <li>    Select the Country from the dropdown.</li>
+            <li> Enter the building Address, City, State, Zip.</li>
+            <li>    Enter the building Description (optional).</li>
+            <li>    Enter Floor Name (alpha/ie. main), Physical Level (numeric/ie. 1), and Add.</li>
+            <li>    Select Save.</li>
+        </ol>
+        <p class="box-note"><span class="bold">Note:</span> The building name, description, and address are seen in the Add-in application when a user right clicks on a building from the reservation page and selects ‘View Details’ from the dropdown.</p>
+        <p>
+            <img src="../images/B_Configuration/MPConfig5.png" class="PDFmedium" />
+        </p>
+        <h2>Images</h2>
+        <p>(Hierarchy &gt; Locations&amp;Rooms &gt; +Building &gt; Images)</p>
+        <ol class="number-list">
+            <li>     Use the arrow and make a selection from the Image Type dropdown field, or Browse... to upload an image.<p>Images should be approximately 300x200 px[MC1] .</p></li>
+        </ol>
+        <p class="box-note"><span class="bold">Note:</span> The building image is seen in the Add-in application when a user right clicks on a building from the reservation page and selects ‘View Details’ from the dropdown.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Select Add.<p>View Image if you would like to preview the image just uploaded.</p></li>
+            <li>    Select Save.</li>
+        </ol>
+        <p>
+            <img src="../images/B_Configuration/MPConfig6.png" class="PDFmedium" />
+        </p>
+        <h2>Locations</h2>
+        <p>Once the building level is created, name the upper hierarchy location levels: State, City, and Building/Campus.</p>
+        <p>The levels have been named State (level 1), City (level 2) and Campus/Building (level 3 and 4) but do not have to be an actual State, City or Campus/Building. Name the levels however deemed appropriate for your organization.</p>
+        <h3>State</h3>
+        <p>(Hierarchy &gt; Locations&amp;Rooms &gt; + Location &gt; State)</p>
+        <p>Building Group Editor</p>
+        <ol class="number-list">
+            <li>Select State (level 1) from the Hierarchy Level dropdown.</li>
+            <li>Enter the name (ie. State) of the top level of the hierarchy in the Hierarchy Name field.</li>
+            <li>Select Save.<p><img src="../images/B_Configuration/MPConfig7.png" /></p></li>
+        </ol>
+        <h3>City</h3>
+        <p>(Hierarchy &gt; Locations&amp;Rooms &gt; + Location &gt; City)</p>
+        <ol class="number-list">
+            <li>    Select City (level 2) from the Hierarchy Level dropdown.</li>
+            <li>    Select the associated top level (level 1) from Parent (ie State created above) field dropdown.</li>
+            <li>    Enter the name of the second level of the hierarchy (ie. City) in the Hierarchy Name field dropdown.</li>
+            <li>    Select Save.<p><img src="../images/B_Configuration/MPConfig8.png" /></p></li>
+        </ol>
+        <h3>Campus</h3>
+        <p>(Hierarchy &gt; Locations&amp;Rooms &gt;+Location &gt; Campus)</p>
+        <ol class="number-list">
+            <li>    Select Campus from the Hierarchy Level dropdown.</li>
+            <li>    Select the associated level 2 (ie. City created above) from Parent field dropdown.</li>
+            <li>    Enter the building name (level 3 of the hierarchy) in the Hierarchy Name field if creating a 3 level hierarchy.</li>
+        </ol>
+        <p>Make sure to enter the building name exactly the same as when you created the building, See Buildings.</p>
+        <p class="box-important"><span class="bold">Important:</span> If creating a 4 level hierarchy, the campus must have a different name than the building.</p>
+        <h4>Search Building</h4>
+        <ol MadCap:continue="true" class="number-list">
+            <li>    Enter the Building Name.<p>The building name must be entered exactly the same as it was created. See Buildings.</p></li>
+            <li>    Enter the City and State associated with the building.<p>The building City and State must be entered exactly the same as it was created. See Buildings.</p></li>
+            <li>Select  Search and highlight the associated building once it appears.</li>
+            <li>    Select Add.</li>
+            <li>    Select Save.<p><img src="../images/B_Configuration/MPConfig9.png" /></p></li>
+        </ol>
     </body>
 </html>
