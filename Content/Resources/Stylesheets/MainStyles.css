@@ -3107,13 +3107,7 @@ p.PDFh1
 		mc-auto-number-format: 'CHAPTER {chapnum}: ';
 	}
 	
-	body
-{
-	color: #666666;
-	font-size: 14px;
-	line-height: 28px;
-}
-
+	
 	ol, ul
 	{
 		font-size: 14px;
