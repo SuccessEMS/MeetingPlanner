@@ -139,6 +139,13 @@
         ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
+      Title="Configuration Guide"
+      Link="/Content/MP/MP/Config/ConfigOverview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/MP/MP/Config/HierarchyOverviewSettings.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
       Title="User Guide"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
