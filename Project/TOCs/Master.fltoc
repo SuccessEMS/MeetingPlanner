@@ -2,7 +2,7 @@
 <CatapultToc
   Version="1" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
   <TocEntry
-    Title="Meeting Planner"
+    Title="MeetingPlanner"
     Link="/Content/Print/MP_Documentation_FrontPage.htm"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
@@ -140,6 +140,13 @@
         ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
+      Title="Configuration Guide"
+      Link="/Content/MP/MP/Config/ConfigOverview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/MP/MP/Config/HierarchyOverviewSettings.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
       Title="User Guide"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
@@ -175,17 +182,6 @@
       <TocEntry
         Title="Meeting Conflicts"
         Link="/Content/MP/MP/User/MP6_MeetingConflicts.html"
-        BreakType="chapter"
-        AutoEndOnLeftPage="disabled"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
-      <TocEntry
-        Title="Delegate Reservations"
-        Link="/Content/MP/MP/User/MP6_DelegateReservations.html"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
         StartSection="false"
