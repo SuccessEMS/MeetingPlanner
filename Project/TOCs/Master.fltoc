@@ -752,17 +752,6 @@
           VolumeNumberReset="same"
           ChapterNumberReset="continue" />
         <TocEntry
-          Title="Installing Room Signs Using MeetingPlanner"
-          Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallRSUsingMP.html"
-          BreakType="chapter"
-          AutoEndOnLeftPage="disabled"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-          SectionNumberReset="continue"
-          VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
-        <TocEntry
           Title="Complete the Room Sign with Exchange Backend Connection"
           Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_CompExchangeBackendConnection.html"
           BreakType="chapter"
