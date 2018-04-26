@@ -1,42 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');" MadCap:lastBlockDepth="4" MadCap:lastHeight="1665" MadCap:lastWidth="914">
     <head><title></title>
         <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">IIS Warmup Application (v1.0.0.1)</h1>
-        <p>Background</p>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">IIS Warmup Application (v1.0.0.1)</h1>
+        <h2>Background</h2>
         <p>Many ASP.NET products have a long compilation time, which leads to a long loading time for the first user to access the website after an application pool is recycled. &#160;Emergingsoft's products are no exception, and also do quite a bit of application caching at this time. &#160;While this ultimately leads to a faster website, it can be a burden on that initial user. &#160;</p>
         <p>In order to alleviate the issue, Emergingsoft has put together an IIS warmup application that can be run to simulate the first user. &#160;Once setup, the first user of the day will no longer experience this initial delay.</p>
-        <p>"Installation" &amp; Configuration</p>
-        <p>1) &#160;Download the attached zip file.</p>
-        <p>**First confirm that the Zip is not blocked by Windows. &#160;This can be done by right-clicking on the file, going to Properties and clicking "Unblock." &#160;If the "Unblock" button is not present, then the archive is already unblocked.</p>
-        <p>2) &#160;Extract the files into a new folder on the application server (typically: &#160;...\Emergingsoft\IisWarmup)</p>
-        <p>3) &#160;Open the configuration file and update the &lt;WarmUpElement&gt; URLs. &#160;(Note: If you wish to add any additional websites to the application, please feel free to do so).</p>
-        <p>4) &#160;Save and close.</p>
-        <p>5) &#160;Open the Administrative Tools &gt; Task Scheduler.</p>
-        <p>6) &#160;Create a new task. &#160;Necessary task configurations are listed below:</p>
-        <ul style="list-style-type: disc;margin-left: 36pt;">
-            <li style="list-style-type: disc;">&#160;</li>
-        </ul>
+        <h2>Installation &amp; Configuration</h2>
+        <ol>
+            <li>Download the zip file provided. First confirm that the Zip is not blocked by Windows. &#160;This can be done by right-clicking on the file, going to Properties and clicking "Unblock." &#160;If the "Unblock" button is not present, then the archive is already unblocked.</li>
+            <li>Extract the files into a new folder on the application server (typically: &#160;...\Emergingsoft\IisWarmup).</li>
+            <li>Open the configuration file and update the &lt;WarmUpElement&gt; URLs. &#160;(Note: If you wish to add any additional websites to the application, please feel free to do so).</li>
+            <li>Save and close.</li>
+            <li>Open the Administrative Tools &gt; Task Scheduler.</li>
+            <li>Create a new task. &#160;Necessary task configurations are listed below:</li>
+        </ol>
         <ul style="list-style-type: circle;margin-left: 72pt;">
             <li style="list-style-type: circle;">General &gt;&#160;"Run as...":&#160;&#160;This account will need to be an domain account with a MeetingPlanner user profile.</li>
             <li style="list-style-type: circle;">General &gt;&#160;"Run whether user is logged on or not":&#160;&#160;Enable</li>
             <li style="list-style-type: circle;">Triggers &gt;&#160;Daily at 1:00am:&#160;&#160;By default the Web Scheduler will recycle everyday at midnight. &#160;If this changes, you will want to modify the trigger or add additional entries. &#160;This should be run after every recycle.</li>
             <li style="list-style-type: circle;">Actions&#160;&gt;&#160;Start a program:&#160;This should point to the .exe file that was part of the downloaded package.</li>
         </ul>
-        <p>Updates &amp; Notes</p>
+        <h2>Updates &amp; Notes</h2>
         <p>v1.0.0.0</p>
-        <ul style="list-style-type: disc;margin-left: 36pt;">
-            <li style="list-style-type: disc;">&#160;</li>
-        </ul>
         <ul style="list-style-type: circle;margin-left: 72pt;">
             <li style="list-style-type: circle;">Initial release.</li>
         </ul>
         <p>v1.0.0.1</p>
-        <ul style="list-style-type: disc;margin-left: 36pt;">
-            <li style="list-style-type: disc;">&#160;</li>
-        </ul>
         <ul style="list-style-type: circle;margin-left: 72pt;">
             <li style="list-style-type: circle;">Application will ignore SSL certificate errors.</li>
         </ul>
