@@ -570,7 +570,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue">
+      ChapterNumberReset="continue"
+      Link="/Content/MP/MP_FloorPlanner/MPFloorPlanner_Overview.html">
       <TocEntry
         Title="Installation Guide"
         BreakType="chapter"
@@ -637,17 +638,6 @@
           VolumeNumberReset="same"
           ChapterNumberReset="continue" />
         <TocEntry
-          Title="Introduction"
-          Link="/Content/MP/MP_FloorPlanner/ConfigUser/MPFloorPlanner_Introduction.html"
-          BreakType="chapter"
-          AutoEndOnLeftPage="disabled"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-          SectionNumberReset="continue"
-          VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
-        <TocEntry
           Title="Modify Rooms"
           Link="/Content/MP/MP_FloorPlanner/ConfigUser/MPFloorPlanner_ModifyRooms.html"
           BreakType="chapter"
@@ -680,17 +670,6 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue">
-        <TocEntry
-          Title="Introduction"
-          Link="/Content/MP/MP_FloorPlanner/ConfigUser/MPFloorPlanner_IntrodUseFP.html"
-          BreakType="chapter"
-          AutoEndOnLeftPage="disabled"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-          SectionNumberReset="continue"
-          VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
         <TocEntry
           Title="Access and View FloorPlanner"
           Link="/Content/MP/MP_FloorPlanner/ConfigUser/MPFloorPlanner_AccessViewFP.html"
