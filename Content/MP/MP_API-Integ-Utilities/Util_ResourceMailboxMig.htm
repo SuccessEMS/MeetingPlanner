@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');" MadCap:lastBlockDepth="4" MadCap:lastHeight="4131" MadCap:lastWidth="914">
     <head><title></title>
         <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">Resource Mailbox Migration: Exchange Web Services</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">Resource Mailbox Migration: Exchange Web Services</h1>
         <h2 class="Heading2">Background&#160;</h2>
         <p>Organizations that are currently using Exchange Resource Mailboxes to hold reservation information, and are looking to migrate their reservations into MeetingPlanner and sunset their Resource Mailboxes can use this tool to aid in the reservation export process. &#160;The utility uses Exchange Web Services to access each resource mailbox and create a csv file containing all reservation information. &#160;This allows manual intervention, if necessary, to update any subjects, owners or other information and will provide data in a specific format that can be easily processed by Emergingsoft and turned into a sql script that will import appropriately into MeetingPlanner.</p>
         <p>Note: &#160;If you are using or evaluating Emergingsoft's Exchange Sync service, be mindful that the room configuration steps below will affect Exchange Sync. &#160;It may be necessary to stop the service during the setup, configuration, and processing steps with this tool.</p>
@@ -22,9 +22,8 @@
         <p>Add-MailboxFolderPermission -Identity ResourecMailbox:\Calendar -User ServiceAcct&#160;-AccessRights ReadItems</p>
         <h2 class="Heading2">Installation / Setup&#160;</h2>
         <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
-            <li>Download the attached zip.</li>
+            <li>Download the zip file provided. First confirm that the Zip is not blocked by Windows. &#160;This can be done by right-clicking on the file, going to Properties and clicking "Unblock." &#160;If the "Unblock" button is not present, then the archive is already unblocked.</li>
         </ol>
-        <p>**First confirm that the Zip is not blocked by Windows. &#160;This can be done by right-clicking on the file, going to Properties and clicking "Unblock." &#160;If the "Unblock" button is not present, then the archive is already unblocked.</p>
         <ol style="list-style-type: decimal;margin-left: 36pt;" start="2">
             <li>Extract the files into a new folder within the Emergingsoft installation folder present on the application server for MeetingPlanner and the Web Scheduler (typically: &#160;C:\ Program Files (x86)\Emergingsoft\Exchange Migration).</li>
             <li>Modify the Properties &gt; Security on the new folder so that the EWS service account has Full Control over the folder.</li>
@@ -75,6 +74,5 @@
         <h2 class="Heading2">Process&#160;</h2>
         <p>Once all of the above steps are complete, either log onto the application server as the service account and execute the .exe or hold down Shift as you right-click on the .exe and then select "Run as different user..." &#160;From here, you can use the credentials for the service account with Exchange permissions.</p>
         <p>Once the application completes, you will find one csv file per Resource Mailbox created in the Exchange Migration folder. &#160;Please supply these csv files to our support team (via a new ticket), and our team can convert these to sql scripts for you. &#160;The sql script will then be able to be run against your MeetingPlanner database to complete the migration.</p>
-        <h2 class="Heading2">Download&#160;</h2>
     </body>
 </html>
