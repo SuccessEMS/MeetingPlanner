@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="4" MadCap:lastHeight="4928" MadCap:lastWidth="914" style="mc-master-page: url('..\..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="4901" MadCap:lastWidth="769" style="mc-master-page: url('..\..\..\..\Resources\MasterPages\MeetingPlanner.flmsp');" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title mt-export-translate="no">Complete the Room Sign with Exchange Backend Connection</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
         <link href="../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="mt-export-title" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:autonum="CHAPTER&#160;1: ">Complete the Room Sign with Exchange Back-end Connection</h1>
+        <h1 class="mt-export-title" MadCap:autonum="CHAPTER&#160;1: ">Complete the Room Sign with Exchange Back-end Connection</h1>
         <h2>Access Room Signs Application</h2>
-        <ol> <li>Access the Room Signs application at: http://&lt;yourserver&gt;/suite<strong>.</strong></li><li>View the Users &amp; Groups page (as in the image below) that will return, the first time the Room Sign application is opened. To gain further access to the application, an administrator profile must be setup.</li> </ol>
+        <ol>
+            <li>Access the Room Signs application at: http://&lt;yourserver&gt;/suite<strong>.</strong></li>
+            <li>View the Users &amp; Groups page (as in the image below) that will return, the first time the Room Sign application is opened. To gain further access to the application, an administrator profile must be setup.</li>
+        </ol>
         <p>
             <img src="../../../../ArchiveMP/17MeetingPlanner/MPRoomSigns/images/A_Installation/MP_CompExchangeBackendConnection_AccessRoomSignsApplication.png" />
         </p>
@@ -23,5 +26,37 @@
             <li>Enter<strong> Display Name</strong>.</li>
             <li>Enter <strong>First Name</strong>. First name is not checked against AD.</li>
             <li>Enter <strong>Last Name</strong>. Last name is not checked against AD.</li>
-        </ol> <p class="box-note"><strong>NOTE:</strong> Ignore the additional user profile fields as they are not necessary.</p><ol><li value="7">Click on the ‘X’ next to System administrator two times until the icon is viewed.</li><li>Select <strong>Save</strong>.</li> </ol><p><img src="../../../../ArchiveMP/17MeetingPlanner/MPRoomSigns/images/A_Installation/MP_CompExchangeBackendConnection_SystemAdministrator.png" /></p><h2>View Room Sign Homepage &#160;&#160;</h2><p>http://&lt;yourserver&gt;/suite&gt;Room Signs</p><p><img src="../../../../ArchiveMP/17MeetingPlanner/MPRoomSigns/images/A_Installation/MP_CompExchangeBackendConnection_RoomSigns.png" /></p><h2>Setup Room Sign Integration with Exchange Web Services</h2><p>The settings below allow Room Signs and Software to integrate with Exchange Web Services.</p><h3>EWS</h3><p><em>(Application&gt;Integrations&gt;<strong>EWS</strong>)</em></p><ol><li>To integrate EWS, the MeetingPlanner Installer must have the following data from the pre-installation. (Sever Setup and Configure Service Account):</li></ol><ul> <li>EWS URL</li><li>EWS Service Account</li><li>EWS Service Account Domain and Password.</li></ul><ol start="2"><li>Go to <em>Application&gt;Integrations&gt;<strong>EWS</strong></em> from the Menu&#160;navigation icon and dropdown menu).</li><li>Enter the EWS URL provided upon installation (e.g., https//exchange.acme.com/ews/exchange.asmx).</li><li>Enter the <strong>EWS Service Account </strong>provided upon installation. Please see the IT support member from your organization that installed EWS for service account information. </li><li>Enter the <strong>EWS Service Account Domain</strong>.</li><li>Enter the <strong>EWS Service Account Password</strong>. Please see the IT support member from your organization that installed EWS for service account password. </li></ol><![CDATA[    ]]><h2>Connect to Exchange</h2><p><em>(Application&gt;<strong>Sign Configuration</strong>)</em></p><ol><li>Go to <em>Application&gt;<strong>Sign Configuration</strong></em> from the Menu&#160;navigation icon and dropdown menu.</li><li>Select <strong>Exchange</strong> from the Back-end Connection field dropdown.</li><li>Select <strong>Save</strong>.&#160;</li></ol><p><img src="../../../../ArchiveMP/17MeetingPlanner/MPRoomSigns/images/A_Installation/MP_CompExchangeBackendConnection_GlobalSettings.png" /></p><h2>Locations &amp; Room</h2><p>(<em>Hierarchy&gt;Locations&amp;Rooms&gt;<strong>Edit room</strong></em>)</p><p class="box-note"><strong>NOTE:</strong> Typically, organizations modify the Room Sign environment that defaults upon install. Although, a room migration template is available for large environments. Please open a support portal ticket to request a template and script for data import if necessary.&#160; </p><h3>General</h3><p><em>(Hierarchy&gt;Locations&amp;Rooms&gt;&#160;Edit room&gt;<strong>General</strong>)</em></p><ol><li>Select <strong>General</strong>.</li><li>Select the Edit icon next to the room to modify.</li><li>Go to <strong>Room Name </strong>field and customize the room name.</li><li>Select <strong>Save.</strong></li></ol><h3>Exchange</h3><ol><li>To integrate Exchange, the MeetingPlanner Installer must have the SMTP address for each room.</li><li> Select <strong>Exchange</strong>.</li><li><strong>Enable Room for Synchronization</strong>.</li><li>Enter the <strong>SMTP Address</strong>. The address will allow the rooms to be pulled into the user’s Outlook Calendar. Please see IT support member from your organization that installed EWS for each room’s unique SMTP address. </li><li>Select <strong>Save</strong>.</li></ol><![CDATA[  ]]><p><img src="../../../../ArchiveMP/17MeetingPlanner/MPRoomSigns/images/A_Installation/MP_CompExchangeBackendConnection_SMTPAddress.png" class="PDFlarge" /></p></body>
+        </ol>
+        <p class="box-note"><strong>NOTE:</strong> Ignore the additional user profile fields as they are not necessary.</p>
+        <ol>
+            <li value="7">Click on the ‘X’ next to System administrator two times until the icon is viewed.</li>
+            <li>Select <strong>Save.</strong></li> <![CDATA[ ]]></ol>
+        <p>
+            <img src="../../../../ArchiveMP/17MeetingPlanner/MPRoomSigns/images/A_Installation/MP_CompExchangeBackendConnection_SystemAdministrator.png" class="PDFmedium" />
+        </p>
+        <h2>View Room Sign Homepage &#160;&#160;</h2>
+        <p>http://&lt;yourserver&gt;/suite&gt;Room Signs</p>
+        <p>
+            <img src="../../../../ArchiveMP/17MeetingPlanner/MPRoomSigns/images/A_Installation/MP_CompExchangeBackendConnection_RoomSigns.png" class="PDFsmall" />
+        </p>
+        <h2>Setup Room Sign Integration with Exchange Web Services</h2>
+        <p>The settings below allow Room Signs and Software to integrate with Exchange Web Services.</p>
+        <h3>EWS</h3>
+        <p><em>(Application&gt;Integrations&gt;<strong>EWS</strong>)</em>
+        </p>
+        <ol>
+            <li>To integrate EWS, the MeetingPlanner Installer must have the following data from the pre-installation. (Sever Setup and Configure Service Account):</li>
+        </ol>
+        <ul>
+            <li>EWS URL</li>
+            <li>EWS Service Account</li>
+            <li>EWS Service Account Domain and Password.</li>
+        </ul>
+        <ol start="2">
+            <li>Go to <em>Application&gt;Integrations&gt;<strong>EWS</strong></em> from the Menu&#160;navigation icon and dropdown menu).</li>
+            <li>Enter the EWS URL provided upon installation (e.g., https//exchange.acme.com/ews/exchange.asmx).</li>
+            <li>Enter the <strong>EWS Service Account </strong>provided upon installation. Please see the IT support member from your organization that installed EWS for service account information. </li>
+            <li>Enter the <strong>EWS Service Account Domain</strong>.</li>
+            <li>Enter the <strong>EWS Service Account Password</strong>. Please see the IT support member from your organization that installed EWS for service account password. </li>
+        </ol><![CDATA[   ]]><h2>Connect to Exchange</h2><p><em>(Application&gt;<strong>Sign Configuration</strong>)</em></p><ol><li>Go to <em>Application&gt;<strong>Sign Configuration</strong></em> from the Menu&#160;navigation icon and dropdown menu.</li><li>Select <strong>Exchange</strong> from the Back-end Connection field dropdown.</li><li>Select <strong>Save</strong>.&#160;</li></ol><p><img src="../../../../ArchiveMP/17MeetingPlanner/MPRoomSigns/images/A_Installation/MP_CompExchangeBackendConnection_GlobalSettings.png" /></p><h2>Locations &amp; Room</h2><p>(<em>Hierarchy&gt;Locations&amp;Rooms&gt;<strong>Edit room</strong></em>)</p><p class="box-note"><strong>NOTE:</strong> Typically, organizations modify the Room Sign environment that defaults upon install. Although, a room migration template is available for large environments. Please open a support portal ticket to request a template and script for data import if necessary.&#160; </p><h3>General</h3><p><em>(Hierarchy&gt;Locations&amp;Rooms&gt;&#160;Edit room&gt;<strong>General</strong>)</em></p><ol><li>Select <strong>General</strong>.</li><li>Select the Edit icon next to the room to modify.</li><li>Go to <strong>Room Name </strong>field and customize the room name.</li><li>Select <strong>Save.</strong></li></ol><h3>Exchange</h3><ol><li>To integrate Exchange, the MeetingPlanner Installer must have the SMTP address for each room.</li><li> Select <strong>Exchange</strong>.</li><li><strong>Enable Room for Synchronization</strong>.</li><li>Enter the <strong>SMTP Address</strong>. The address will allow the rooms to be pulled into the user’s Outlook Calendar. Please see IT support member from your organization that installed EWS for each room’s unique SMTP address. </li><li>Select <strong>Save</strong>.</li></ol> <p><img src="../../../../ArchiveMP/17MeetingPlanner/MPRoomSigns/images/A_Installation/MP_CompExchangeBackendConnection_SMTPAddress.png" class="PDFlarge" /></p></body>
 </html>
