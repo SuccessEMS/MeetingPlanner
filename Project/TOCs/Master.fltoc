@@ -765,6 +765,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration Guide"
+        Link="/Content/MP/MP_RoomSigns/ConfigUser/MPRoomSigns_Introduction.html"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
         StartSection="false"
@@ -773,17 +774,6 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue">
-        <TocEntry
-          Title="Introduction"
-          Link="/Content/MP/MP_RoomSigns/ConfigUser/MPRoomSigns_Introduction.html"
-          BreakType="chapter"
-          AutoEndOnLeftPage="disabled"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-          SectionNumberReset="continue"
-          VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
         <TocEntry
           Title="Customize Room Sign Environment - Administrator"
           Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_CustomizeRSEnvironAdmin.html"
