@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');" MadCap:lastBlockDepth="4" MadCap:lastHeight="4062" MadCap:lastWidth="916">
     <head><title></title>
         <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">Installation and Configuration Guide</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">Installation and Configuration Guide</h1>
         <h2 class="Heading2">1) Setup new MeetingPlanner custom field</h2>
         <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="1">
             <li>Go to MP Web &gt; Setup &gt; Code Tables &gt; Room Custom Fields (dropdown) &gt; Insert New Record.</li>
@@ -85,7 +85,5 @@
         <h2 class="Heading2">9) Optional: "Migrate" existing reservations&#160;</h2>
         <p>The service is designed to run based off of a "transaction log" in MeetingPlanner, and will synchronize any action that happens in MeetingPlanner from the point the service is started, forward. &#160;If there are already reservations in MeetingPlanner that should be synchronized, Emergingsoft has put together a script (linked below) to set all existing reservations to by sync'd. &#160;</p>
         <p>Please update the WHERE clause (line 35) as necessary. &#160;Keep in mind, the migration will take additional time, and this should be planned for.</p>
-        <p><a href="https://dl.dropboxusercontent.com/u/45342453/Latest%20Releases/Crestron%20Integration%20Service/AddRoomReservationToTransactionTable.sql" class="Hyperlink">SQL Script Download</a>
-        </p>
     </body>
 </html>
