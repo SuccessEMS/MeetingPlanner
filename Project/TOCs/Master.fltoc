@@ -138,6 +138,9 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Installing Meeting Planner"
+        Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_Installation.html" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
