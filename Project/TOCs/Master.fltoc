@@ -60,7 +60,7 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same" />
       <TocEntry
-        Title="Hardware Requirements Checklist"
+        Title="Hardware &amp; Software Requirements Checklist"
         Link="/Content/MP/MP/Install/MP6_HardwareRequirementsChecklist.html"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
