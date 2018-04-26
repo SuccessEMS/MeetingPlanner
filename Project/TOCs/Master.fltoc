@@ -51,6 +51,17 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same" />
       <TocEntry
+        Title="Hardware Requirements Checklist"
+        Link="/Content/MP/MP/Install/MP6_HardwareRequirementsChecklist.html"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
         Title="Server 2012 Prerequisite Setup"
         Link="/Content/MP/MP/Install/MP6_Server2012PrerequisiteSetup.html"
         BreakType="chapter"
@@ -64,17 +75,6 @@
       <TocEntry
         Title="Server 2008 R2 Prerequisite Setup"
         Link="/Content/MP/MP/Install/MP6_Server2008R2PrerequisiteSetup.html"
-        BreakType="chapter"
-        AutoEndOnLeftPage="disabled"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
-      <TocEntry
-        Title="Hardware Requirements Checklist"
-        Link="/Content/MP/MP/Install/MP6_HardwareRequirementsChecklist.html"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
         StartSection="false"
@@ -727,7 +727,19 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_Installing.html">
+        <TocEntry
+          Title="Pre-Installation SQL Server"
+          Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_PreInstallSQLServer.html"
+          BreakType="chapter"
+          AutoEndOnLeftPage="disabled"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Installing Room Signs"
           Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_Installing.html"
@@ -751,8 +763,8 @@
           VolumeNumberReset="same"
           ChapterNumberReset="continue" />
         <TocEntry
-          Title="Prerequisites to Installation and System Requirements - Using MeetingPlanner"
-          Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_PrereqInstallSystemRequirements.html"
+          Title="Complete the Room Sign with Exchange Backend Connection"
+          Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_CompExchangeBackendConnection.html"
           BreakType="chapter"
           AutoEndOnLeftPage="disabled"
           StartSection="false"
@@ -760,96 +772,7 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
-          <TocEntry
-            Title="Prerequisites to Installation and System Requirements"
-            Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_PrereqInstallSysRequUseExchange.html"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="Pre-Installation Application Server"
-            Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_Pre-InstallAppServer.html"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="Additional Prerequisites and Requirements for 2012 and 2008 R2"
-            Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_AddPrereqReq2012and2008R2.html"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="Pre-Installation SQL Server"
-            Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_PreInstallSQLServer.html"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="Pre-Installation Exchange Server"
-            Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_PreInstallExchangeServer.html"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="Prerequisites to Installation and System Requirements Checklist"
-            Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_PrereqInstallSysReqChecklist.html"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="Complete the Room Sign with Exchange Backend Connection"
-            Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_CompExchangeBackendConnection.html"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-          <TocEntry
-            Title="Customize Room Sign Environment - Administrator"
-            Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_CustomizeRSEnvironAdmin.html"
-            BreakType="chapter"
-            AutoEndOnLeftPage="disabled"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
-        </TocEntry>
+          ChapterNumberReset="continue" />
       </TocEntry>
       <TocEntry
         Title="Configuration Guide"
@@ -864,6 +787,17 @@
         <TocEntry
           Title="Introduction"
           Link="/Content/MP/MP_RoomSigns/ConfigUser/MPRoomSigns_Introduction.html"
+          BreakType="chapter"
+          AutoEndOnLeftPage="disabled"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Customize Room Sign Environment - Administrator"
+          Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_CustomizeRSEnvironAdmin.html"
           BreakType="chapter"
           AutoEndOnLeftPage="disabled"
           StartSection="false"
