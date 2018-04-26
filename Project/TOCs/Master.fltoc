@@ -25,7 +25,16 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Installation Guide"
-      Link="/Content/MP/MP/Install/InstallationGuideIntroduction.htm">
+      Link="/Content/MP/MP/Install/InstallationGuideIntroduction.htm"
+      BreakType="chapter"
+      PageNumberReset="reset"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      StartSection="false"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same">
       <TocEntry
         Title="Network Architecture Diagram"
         Link="/Content/MP/MP/Install/MP6_NetworkArchitectureDiagram.html"
@@ -42,8 +51,8 @@
         Link="/Content/MP/MP/Install/MP6_HardwareResources.html"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
-        PageNumberReset="reset"
-        ChapterNumberReset="reset"
+        PageNumberReset="continue"
+        ChapterNumberReset="continue"
         ChapterNumber="1"
         StartSection="false"
         PageNumber="1"
@@ -118,7 +127,12 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Installing Meeting Planner"
-        Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_Installation.html" />
+        Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_Installation.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        StartSection="false"
+        ChapterNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
         Title="Verification"
         Link="/Content/MP/MP/Install/MP6_Verification.html"
@@ -144,70 +158,175 @@
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
-      Link="/Content/MP/MP/Config/ConfigOverview.htm">
+      Link="/Content/MP/MP/Config/ConfigOverview.htm"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      StartSection="false"
+      ChapterNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/MP/MP/Config/HierarchyOverviewSettings.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/MP/MP/Config/HierarchyOverviewSettings.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        StartSection="false"
+        ChapterNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Hierarchy Create a New Room.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Hierarchy Create a New Room.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Hierarchy Combination Rooms.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Hierarchy Combination Rooms.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Hierarchy View or Modify.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Hierarchy View or Modify.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Hierarchy Equipment Storage.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Hierarchy Equipment Storage.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/MP/MP/Config/Resources Room Setup Options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/MP/MP/Config/Resources Room Setup Options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        StartSection="false"
+        ChapterNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Resources Equipment Options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Resources Equipment Options.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Resources Caterers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Resources Caterers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Resources Videoconference.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Resources Videoconference.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/MP/MP/Config/Application Users Groups.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/MP/MP/Config/Application Users Groups.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        StartSection="false"
+        ChapterNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Application Email Templates.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Application Email Templates.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Application - Reservation Attributes"
-          Link="/Content/MP/MP/Config/Reservation Attributes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+          Link="/Content/MP/MP/Config/Reservation Attributes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Application Code Tables.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Application Code Tables.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Application - Integrations EWS"
-          Link="/Content/MP/MP/Config/Integrations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Integrations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/MP/MP/Config/Core Configuration Global.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/MP/MP/Config/Core Configuration Global.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        StartSection="false"
+        ChapterNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Core Configuration Web Settings.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+          Link="/Content/MP/MP/Config/Core Configuration Web Settings.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Core Configuration Universal.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Core Configuration Universal.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Core Configuration Forms Authentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Core Configuration Forms Authentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Core Configuration Attachments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Core Configuration Attachments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/MP/MP/Config/Core Configuration Outlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/MP/MP/Config/Core Configuration Outlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          StartSection="false"
+          ChapterNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -321,7 +440,7 @@
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
       <TocEntry
-        Title="Top 10 Meeting Planner Issues (and How to Fix Them)"
+        Title="Top Meeting Planner Issues (and How to Fix Them)"
         Link="/Content/MP/MP/User/TroubleshootingTop10Issues.html"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
