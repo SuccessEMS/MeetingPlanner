@@ -27,6 +27,17 @@
       Title="Installation Guide"
       Link="/Content/MP/MP/Install/InstallationGuideIntroduction.htm">
       <TocEntry
+        Title="Network Architecture Diagram"
+        Link="/Content/MP/MP/Install/MP6_NetworkArchitectureDiagram.html"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
         Title="Hardware &amp; Software Requirements"
         Link="/Content/MP/MP/Install/MP6_HardwareResources.html"
         BreakType="chapter"
@@ -73,17 +84,6 @@
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
       <TocEntry
-        Title="Network Architecture Diagram"
-        Link="/Content/MP/MP/Install/MP6_NetworkArchitectureDiagram.html"
-        BreakType="chapter"
-        AutoEndOnLeftPage="disabled"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
-      <TocEntry
         Title="Application Server Installation"
         Link="/Content/MP/MP/Install/MP6_ApplicatonServerInstall.html"
         BreakType="chapter"
@@ -117,6 +117,9 @@
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
       <TocEntry
+        Title="Installing Meeting Planner"
+        Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_Installation.html" />
+      <TocEntry
         Title="Verification"
         Link="/Content/MP/MP/Install/MP6_Verification.html"
         BreakType="chapter"
@@ -128,7 +131,7 @@
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
       <TocEntry
-        Title="Outlook MP 6 Add-in"
+        Title="Outlook Add-in"
         Link="/Content/MP/MP/Install/MP6_OutlookAdd-in.html"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
@@ -138,9 +141,6 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
-      <TocEntry
-        Title="Installing Meeting Planner"
-        Link="/Content/MP/MP_RoomSigns/Install/MPRoomSigns_InstallExchange/MPRoomSigns_Installation.html" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
