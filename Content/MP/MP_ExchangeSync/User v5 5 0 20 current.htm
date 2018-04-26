@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');" MadCap:lastBlockDepth="4" MadCap:lastHeight="8259" MadCap:lastWidth="916">
     <head><title></title>
         <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">User (v5.5.0.20-current)</h1>
-        <h2>A. Pre-Installation Preparations</h2>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">User (v5.5.0.20-current)</h1>
+        <h2>Pre-Installation Preparations</h2>
         <ul style="list-style-type: disc;margin-left: 36pt;">
             <li style="list-style-type: disc;">There&#160;needs to be an account in Exchange that we will refer to as the Service Account </li>
         </ul>
@@ -15,7 +15,6 @@
             <li style="list-style-type: circle;">This account will need Exchange "Full Access" permissions to all the Room Resources and User Calendars being synced.</li>
             <li style="list-style-type: circle;">Inadequate permissions will often result in “Can’t access resource” type errors in the Exchange Sync processes, and many others. These will typically occur when attempting to read data from Exchange.</li>
             <li style="list-style-type: circle;">The Service Account should be in the Administrators group on the Meeting Planner Server.</li>
-            <li style="list-style-type: circle;">More details can be found in this article:&#160;<a href="http://support.emergingsoft.com/entries/23757868-Service-Account-Requirements-Uses" title="http://support.emergingsoft.com/entries/23757868-Service-Account-Requirements-Uses" class="Hyperlink">http://support.emergingsoft.com/entr...uirements-Uses</a></li>
         </ul>
         <ul style="list-style-type: disc;margin-left: 36pt;">
             <li style="list-style-type: disc;">During the Administration and Set Up of Exchange Sync, the person performing these functions will&#160;need to know the windows Log On credentials of the Service Account.</li>
@@ -24,11 +23,9 @@
             <li style="list-style-type: disc;">It is recommended that you&#160;create a Meeting Planner User that will be used only for Exchange Sync purposes. This does not need to be linked to a actual User in the domain and is not used on the Exchange end at all. It's main purpose is to show in the Reservation Log, that the Sync Service made the change, not a person using Meeting Planner.</li>
             <li style="list-style-type: disc;">MAPI CDO&#160;needs to be installed on MP Server. Typically, this will not be installed. If your Exchange Server version is above 2010, you may need to install the Oulook MAPI library instead. This is part of the Office Set-Up install. &#160;Download: &#160;<a href="http://www.microsoft.com/en-us/download/details.aspx?id=1004"><span class="Hyperlink">http://www.microsoft.com/en-us/download/details.aspx?id=1004</span></a></li>
             <li style="list-style-type: disc;">The&#160;.NET 4.0 Framework&#160;is required on the MP Server.&#160;<a href="http://www.microsoft.com/en-us/download/details.aspx?id=17851"><span class="Hyperlink">http://www.microsoft.com/en-us/download/details.aspx?id=17851</span></a></li>
-            <li style="list-style-type: disc;">If there are issues connecting to the Exchange Server, try the MFC MAPI tool. It can be found at: </li>
+            <li style="list-style-type: disc;">If there are issues connecting to the Exchange Server, try the MFC MAPI tool. It can be found at http://mfcmapi.codeplex.com/. </li>
         </ul>
-        <p><a href="http://mfcmapi.codeplex.com/" class="Hyperlink">http://mfcmapi.codeplex.com/</a>
-        </p>
-        <h2>B. Installation Instructions</h2>
+        <h2>Installation Instructions</h2>
         <ul style="list-style-type: disc;margin-left: 36pt;">
             <li style="list-style-type: disc;">It is recommended that someone from EmergingSoft assist in the initial installation and set-up.</li>
         </ul>
@@ -40,22 +37,21 @@
             <li style="list-style-type: disc;">Complete / Check the Exchange Sync related entries in Meeting Planner Web.&#160; (see&#160;Meeting Planner Web Entries&#160; below)</li>
             <li style="list-style-type: disc;">Start the Exchange Sync Service. If it will not start at all, it is likely that the 4.0 .NET Framework is not installed on the Meeting Planner server.</li>
         </ul>
-        <h2>C. Meeting Planner Configuration Tool Entries</h2>
+        <h2>Meeting Planner Configuration Tool Entries</h2>
         <ul style="list-style-type: disc;margin-left: 36pt;">
             <li style="list-style-type: disc;">Open&#160;the Meeting Planner Configuration Tool.</li>
             <li style="list-style-type: disc;">The&#160;database connection information&#160;used by the Web Site and Web Service (Database tab) is also used by the Exchange Sync windows service.&#160;If this is not yet filled in, it needs to be completed&#160;at this time.</li>
             <li style="list-style-type: disc;">Go to the Exchange Sync tab for the remainder of the entries.</li>
             <li style="list-style-type: disc;">Exchange Store Address -&#160;This is the machine name of the Exchange Server being synced to. Often of the form mail.DomainName.com. This and the next field represent one of two ways that the Credentials can be passed to Exchange. It&#160;needs to be set to the specific Exchange node.</li>
             <li style="list-style-type: disc;">Exchange User Name&#160;- This is the account&#160; name of the Service Account.&#160; If all four fields are filled in, this is the field / log-in method that will be used. It is usually domain-specified&#160;ex. Domain Name\Service Account Name</li>
-            <li style="list-style-type: disc;">Profile Name&#160;- This is the name of the profile that will be used to access Exchange Server (Service Account). This and the password below can be used instead of Exchange User Name. In Office 365, and other environments, this is the only option. The profile needs to be created under the service account. If using a Proxy, the proxy address needs to be added to the profile. To see how to create the Profile check out this other KB article:&#160;<a href="http://support.emergingsoft.com/entries/22334153-manually-configure-outlook-to-connect-with-office-365"><span class="Hyperlink">http://support.emergingsoft.com/entries/22334153-manually-configure...</span></a></li>
+            <li style="list-style-type: disc;">Profile Name&#160;- This is the name of the profile that will be used to access Exchange Server (Service Account). This and the password below can be used instead of Exchange User Name. In Office 365, and other environments, this is the only option. The profile needs to be created under the service account. If using a Proxy, the proxy address needs to be added to the profile. </li>
             <li style="list-style-type: disc;">Profile Password&#160;- The password for the Profile above. This parameter is only used by the PST provider if the PST store is protected with a password. This is NOT a Windows account password.</li>
             <li style="list-style-type: disc;">Pull Service Process Interval&#160;- This is the amount of time, in number of minutes, between the end of one Exchange Sync Service process cycle and the start of the next. Should be set to at least 1.</li>
             <li style="list-style-type: disc;">Days Back to Pull&#160;- This is the number of days back you want the Pull service to search for appointments. It will look at the Modification Date. If you enter 14, for example, you will receive every changed appointment from the last two weeks. For the initial load, you may want to set this to a higher number, to get appointments that were scheduled far in advance, and then set it back to 7-14. If this is set to a higher number after the initial sync, you will need to "Force Fresh Pull of Exchange Data", the button found in Meeting Planner Web - Setup - Rooms -&#160;&lt;navigate to room&gt;&#160;or the&#160;Meeting Planner Web - Setup - Users and Groups -&#160;&#160;&lt;navigate to user&gt;.</li>
             <li style="list-style-type: disc;">Debug Level&#160;- This is a number, 0 - 2, that determines how many entries are created in the Event Viewer. 2 is very verbose, and should generally just be used when troubleshooting issues. 1 is the default, and provides enough information to monitor if it is running smoothly. 0 is quite limited, and should only be used when the system has been stable for a while, or if there are people looking at the Event Viewer that tend to be alarmed by the quantity, or nature, of the informational entries.</li>
             <li style="list-style-type: disc;">Limited Search Mode&#160;- If this flag is checked, when Exchange Sync searches for Appointments to Push, it will only use a type of search. Otherwise, if that first search fails, it has secondary ones it can use. The secondary searches are generally only needed for specific situations, but they do make the system more robust. It is best to first try running with this flag unchecked, and only try the other mode if recommended by an EmergingSoft Support Specialist.</li>
         </ul>
-        <p>------------------------------</p>
-        <h2>D. Exchange Sync set-up entries from Meeting Planner Web</h2>
+        <h2>Exchange Sync set-up entries from Meeting Planner Web</h2>
         <p>These entries will usually only need to be done during set-up.</p>
         <p>Setup –&#160;General Settings – bottom of Room tab</p>
         <ul style="list-style-type: disc;margin-left: 36pt;">
@@ -78,11 +74,10 @@
             <li style="list-style-type: disc;">Navigate to the User who&#160; owns the Calendar being Synchronized</li>
             <li style="list-style-type: disc;">Use the “Synch User’s Mailbox” Flag to enable or disable the link to the Exchange Account Calendar.</li>
         </ul>
-        <p>------------------------------</p>
-        <h2>E. Running Exchange Sync Service and Checking the Results</h2>
+        <h2>Running Exchange Sync Service and Checking the Results</h2>
         <p>The&#160;Event Viewer&#160;on the server where the Pull Service is running will have entries made in its Application Log section. You can filter the log on ExchangeSync to see only the ones related to Exchange Sync Pulls or Pushes.</p>
         <ul style="list-style-type: disc;margin-left: 36pt;">
-            <li style="list-style-type: disc;">The amount of detail is controlled by the "DebugLevel" set inthe Sync Service config file. 0 is the least verbose, 3 the most.</li>
+            <li style="list-style-type: disc;">The amount of detail is controlled by the "DebugLevel" set in the Sync Service config file. 0 is the least verbose, 3 the most.</li>
             <li style="list-style-type: disc;">When the service is first started, you will see “Exchange Sync started. The Sync process is configured to run every&#160;15&#160;minutes.”&#160; (where configuration file setting Exchange Sync Interval Minute is set to 15)</li>
             <li style="list-style-type: disc;">The first process message is “Starting Sync Process”.</li>
             <li style="list-style-type: disc;">The Room Pull, User Pull, and Pushes are processed on separate threads. The Event Viewer entries may be intertwined. The Room Pull threads will have Event IDs starting with 100, the User Pull threads start with 200, and the events for Push will always be 3.</li>
@@ -91,40 +86,35 @@
             <li style="list-style-type: disc;">Depending on the Debug Level, and if any processing errors occurred, there could be errors, warnings, or information messages displayed.</li>
             <li style="list-style-type: disc;">When it has completed the Meeting Planner side of the processing, a message will be displayed such as: The Following Meetings were processed: [Update 'Subject of first one'&#160;Sun 07 Apr 2013 10:00 GMT] [...</li>
             <li style="list-style-type: disc;">The Push requests will be processed at t same interval as the Pulls. The number of requests it processes in one batch is controlled by the General Setting, "Maximum # of Pushes that will be processed per batch".</li>
-            <li style="list-style-type: disc;">Depending on the Debug Level each attempt will be shown, or only successful ones. In either case, it will write an entry such as ,”Attempting Create Push to Mailbox 'room3', Start Date: Mon, 23 Jan 2012 11:00:00 GMT”.</li>
+            <li style="list-style-type: disc;">Depending on the Debug Level each attempt will be shown, or only successful ones. In either case, it will write an entry such as, "Attempting Create Push to Mailbox 'room3', Start Date: Mon, 23 Jan 2012 11:00:00 GMT.”</li>
             <li style="list-style-type: disc;">The error details can be “friendly”, example - Room 231 reserved for 2012 Jan 12 11:30:00 GMT” or quite cryptic. The cryptic ones are generally connection or other Exchange issues, while the friendly ones are MP business rules that were broken, most commonly, the MP Room is already reserved for the time the Pull is trying to add.</li>
             <li style="list-style-type: disc;">The Exchange Sync Service will not stop itself when errors occur. Since the data was never processed, it will not be lost. During the next cycle of the Service, the changes will still be there, plus any that have occurred since then.</li>
-            <li style="list-style-type: disc;">This article shows how to view the Reservation Log through Izenda Reports.&#160;&#160;&#160;&#160;<a href="http://support.emergingsoft.com/entries/20642631-reservation-log-search" class="Hyperlink">http://support.emergingsoft.com/entries/20642631-reservation-log-se...</a></li>
         </ul>
         <p>The&#160;Reservation Log&#160;in Meeting Planner will show all the data-affecting steps performed by the Pull process.&#160; This will show&#160;Adds, Update, Delete, and Conflict&#160;information. A sample is shown below.</p>
-        <p>_______________________</p>
-        <h2>F. Triggering and Checking Push Results</h2>
+        <h2>Triggering and Checking Push Results</h2>
         <p>The UI trigger for the Push Functionality is anything that will Add, Change, or Delete a Room Reservation using the Meeting Planner Web Services.</p>
         <ul style="list-style-type: disc;margin-left: 36pt;">
             <li style="list-style-type: disc;">The change should have triggered the creation of a Push Request that will be picked up by the Exchange Sync Service (see section E). Changes done this way will be at the to pof the list, in front of the internal Push requests created by the Pull process.</li>
             <li style="list-style-type: disc;">Subject arriving Blank or Changed</li>
         </ul>
         <p>In Outlook / Exchange, the Subject that ends up in the Invited Resource's Appointment can be different than the Organizer (Inviter) Appointment's Subject. It gets changed based on rules in Exchange Resource Booking Attendant. In the Pull Service, when a MP Reservation is created from a Resource, it is the Resource's Subject that is being used for the MP Res Subject.</p>
-        <p>&#160;</p>
         <p>The Reservation Log&#160;can be checked against the Exchange Appointment.</p>
         <ul style="list-style-type: disc;margin-left: 36pt;">
             <li style="list-style-type: disc;">The Reservation Log logs all such changes done to Room Reservations. To spot-check if the Push worked, you would check the Reservations involved in recent activity, filtered by a Room set up for Synchronization.</li>
             <li style="list-style-type: disc;">Connect to that Exchange mailbox and see if you see the changes to the Appointment.</li>
         </ul>
-        <h2>G. Troubleshooting Connection Issues with Exchange</h2>
+        <h2>Troubleshooting Connection Issues with Exchange</h2>
         <ul style="list-style-type: disc;margin-left: 36pt;">
             <li style="list-style-type: disc;">Ensure that the&#160;Exchange Store Address&#160;field in the MP Config Tool is&#160;an address that MAPI can resolve. This may not be the same address that is used by Outlook OWA.</li>
             <li style="list-style-type: disc;">The identity of the domain Windows user used by the Exchange Sync Pull Service (LogOn tab)&#160;must be able to access all the mailboxes that you need to process.</li>
             <li style="list-style-type: disc;">On the MP Server,&#160;make sure that the user was&#160;added to the local users and has sufficient local rights.</li>
             <li style="list-style-type: disc;">Check that the&#160;mail address&#160;entered in the Meeting Planner Configuration Tool&#160;will resolve in a browser opened on the Meeting Planner server.</li>
-            <li style="list-style-type: disc;">For&#160;any Error on the CheckChanges call of the Pull,&#160;Go into that Room or User in MP Admin and click on the "Force Fresh Pull of Exchange Data" button</li>
-            <li style="list-style-type: disc;">If&#160;IPv6 is enabled on Windows 2008, that can cause problems connecting to the Exchange Server. To Disable this setting, refer to the Microsoft Article below. </li>
+            <li style="list-style-type: disc;">For&#160;any Error on the CheckChanges call of the Pull,&#160;Go into that Room or User in MP Admin and click on the "Force Fresh Pull of Exchange Data" button.</li>
+            <li style="list-style-type: disc;">If&#160;IPv6 is enabled on Windows 2008, that can cause problems connecting to the Exchange Server. </li>
         </ul>
-        <p><a href="http://support.microsoft.com/default.aspx?scid=kb;EN-US;929852" class="Hyperlink">http://support.microsoft.com/default.aspx?scid=kb;EN-US;929852</a>
-        </p>
         <ul style="list-style-type: disc;margin-left: 36pt;">
             <li style="list-style-type: disc;">Could there be a&#160;firewall blocking access?</li>
-            <li style="list-style-type: disc;">To test connection, try creating a new Outlook profile on the MP Server, while logged into the domain as the Service Account</li>
+            <li style="list-style-type: disc;">To test connection, try creating a new Outlook profile on the MP Server, while logged into the domain as the Service Account.</li>
         </ul>
     </body>
 </html>

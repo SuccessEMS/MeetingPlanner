@@ -1,54 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2821" MadCap:lastWidth="786" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');">
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="3269" MadCap:lastWidth="916" style="mc-master-page: url('..\..\Resources\MasterPages\MeetingPlanner.flmsp');" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">API&#160;Reservation Fee (XML&#160;"Drop") Introduction</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">API&#160;Reservation Fee (XML&#160;"Drop") Introduction</h1>
         <h2 class="Heading2">Background</h2>
         <p>The Reservation Feed is a simple commandline utility that can be setup in the Task Scheduler to run at a specified interval. &#160;Each time the utility is run, it will convert data from a view in the MeetingPlanner database into an xml file that can be saved to disk or uploaded to an FTP site.</p>
         <p>The feed is typically used for custom digital signage, where the reservation times, subject, room, and organizer information need to be displayed. &#160;However, the database view can be customized to include any / all required information, and can be filtered to show reservations for "today," "this week," etc.</p>
         <p>Notable features:</p>
-        <ul style="list-style-type: disc;margin-left: 36pt;">
-            <li style="list-style-type: disc;">DateTimes will be converted to a specified timezone (or can be left in UTC).</li>
-            <li style="list-style-type: disc;">The output DateTime format can be specified.</li>
-            <li style="list-style-type: disc;">Output information can be customized based on what is captured in the DB view.</li>
+        <ul>
+            <li>DateTimes will be converted to a specified timezone (or can be left in UTC).</li>
+            <li>The output DateTime format can be specified.</li>
+            <li>Output information can be customized based on what is captured in the DB view.</li>
         </ul>
         <h2 class="Heading2">Sample Output</h2>
-        <p>&lt;?xml version="1.0" standalone="yes"?&gt;</p>
-        <p>&lt;DocumentElement&gt;</p>
-        <p>&lt;reservation&gt;</p>
-        <p>&lt;StartTime&gt;2013-03-05 04:15&lt;/StartTime&gt;</p>
-        <p>&lt;EndTime&gt;2013-03-05 05:15&lt;/EndTime&gt;</p>
-        <p>&lt;Subject&gt;Test Meeting with Setup&lt;/Subject&gt;</p>
-        <p>&lt;RoomName&gt;Room 101&lt;/RoomName&gt;</p>
-        <p>&lt;FloorName&gt;Main&lt;/FloorName&gt;</p>
-        <p>&lt;FloorNumber&gt;1&lt;/FloorNumber&gt;</p>
-        <p>&lt;/reservation&gt;</p>
-        <p>&lt;reservation&gt;</p>
-        <p>&lt;StartTime&gt;2013-02-06 01:00&lt;/StartTime&gt;</p>
-        <p>&lt;EndTime&gt;2013-02-06 01:30&lt;/EndTime&gt;</p>
-        <p>&lt;Subject /&gt;</p>
-        <p>&lt;RoomName&gt;TestRoom&lt;/RoomName&gt;</p>
-        <p>&lt;FloorName&gt;Main&lt;/FloorName&gt;</p>
-        <p>&lt;FloorNumber&gt;1&lt;/FloorNumber&gt;</p>
-        <p>&lt;/reservation&gt;</p>
-        <p>&lt;reservation&gt;</p>
-        <p>&lt;StartTime&gt;2013-02-06 11:30&lt;/StartTime&gt;</p>
-        <p>&lt;EndTime&gt;2013-02-07 12:00&lt;/EndTime&gt;</p>
-        <p>&lt;Subject /&gt;</p>
-        <p>&lt;RoomName&gt;A123&lt;/RoomName&gt;</p>
-        <p>&lt;FloorName&gt;Main&lt;/FloorName&gt;</p>
-        <p>&lt;FloorNumber&gt;1&lt;/FloorNumber&gt;</p>
-        <p>&lt;/reservation&gt;</p>
-        <p>&lt;reservation&gt;</p>
-        <p>&lt;StartTime&gt;2013-02-06 11:15&lt;/StartTime&gt;</p>
-        <p>&lt;EndTime&gt;2013-02-07 12:15&lt;/EndTime&gt;</p>
-        <p>&lt;Subject /&gt;</p>
-        <p>&lt;RoomName&gt;Room 101&lt;/RoomName&gt;</p>
-        <p>&lt;FloorName&gt;Main&lt;/FloorName&gt;</p>
-        <p>&lt;FloorNumber&gt;1&lt;/FloorNumber&gt;</p>
-        <p>&lt;/reservation&gt;</p>
-        <p>&lt;/DocumentElement&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;?xml version="1.0" standalone="yes"?&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;DocumentElement&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;reservation&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;StartTime&gt;2013-03-05 04:15&lt;/StartTime&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;EndTime&gt;2013-03-05 05:15&lt;/EndTime&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;Subject&gt;Test Meeting with Setup&lt;/Subject&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;RoomName&gt;Room 101&lt;/RoomName&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;FloorName&gt;Main&lt;/FloorName&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;FloorNumber&gt;1&lt;/FloorNumber&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;/reservation&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;reservation&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;StartTime&gt;2013-02-06 01:00&lt;/StartTime&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;EndTime&gt;2013-02-06 01:30&lt;/EndTime&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;Subject /&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;RoomName&gt;TestRoom&lt;/RoomName&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;FloorName&gt;Main&lt;/FloorName&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;FloorNumber&gt;1&lt;/FloorNumber&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;/reservation&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;reservation&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;StartTime&gt;2013-02-06 11:30&lt;/StartTime&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;EndTime&gt;2013-02-07 12:00&lt;/EndTime&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;Subject /&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;RoomName&gt;A123&lt;/RoomName&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;FloorName&gt;Main&lt;/FloorName&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;FloorNumber&gt;1&lt;/FloorNumber&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;/reservation&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;reservation&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;StartTime&gt;2013-02-06 11:15&lt;/StartTime&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;EndTime&gt;2013-02-07 12:15&lt;/EndTime&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;Subject /&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;RoomName&gt;Room 101&lt;/RoomName&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;FloorName&gt;Main&lt;/FloorName&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;FloorNumber&gt;1&lt;/FloorNumber&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;/reservation&gt;</p>
+        <p style="font-family: 'Courier New';">&lt;/DocumentElement&gt;</p>
     </body>
 </html>
