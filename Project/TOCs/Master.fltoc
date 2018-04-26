@@ -786,17 +786,6 @@
           VolumeNumberReset="same"
           ChapterNumberReset="continue" />
         <TocEntry
-          Title="Room Sign Interface Configuration"
-          Link="/Content/MP/MP_RoomSigns/ConfigUser/MPRoomSigns_RSInterfaceConfig.html"
-          BreakType="chapter"
-          AutoEndOnLeftPage="disabled"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-          SectionNumberReset="continue"
-          VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
-        <TocEntry
           Title="Room Signs Quick Reference"
           Link="/Content/MP/MP_RoomSigns/ConfigUser/MPRoomSigns_QuickReference.html"
           BreakType="chapter"
