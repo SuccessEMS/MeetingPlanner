@@ -192,24 +192,121 @@
     <Word Comment="">UDQs</Word>
     <Word Comment="">http://www.dea.com</Word>
     <Word Comment="">http://yourserver/MCAPI/MCAPIService.asmx?WSDL</Word>
-    <Word>MOBILE_HelpLinkLabel</Word>
-    <Word>MOBILE_QueryStringKey</Word>
-    <Word>10/hour</Word>
-    <Word>TLS</Word>
-    <Word>SSL3</Word>
-    <Word>date/time</Word>
-    <Word>http://localhost/Pam44-1/Service.asmx</Word>
-    <Word>Phone/Fax</Word>
-    <Word>Closure/Weekend</Word>
-    <Word>ICS</Word>
-    <Word>Gmail</Word>
-    <Word>his/her</Word>
-    <Word>Occurring/Past</Word>
-    <Word>Notifications/Automated</Word>
-    <Word>date/time/room</Word>
-    <Word>notes/special</Word>
-    <Word>event/reserved</Word>
-    <Word>NetworkID</Word>
-    <Word>EMS\username</Word>
-    <Word>tblRegistry</Word>
+    <Word Comment="">MOBILE_HelpLinkLabel</Word>
+    <Word Comment="">MOBILE_QueryStringKey</Word>
+    <Word Comment="">10/hour</Word>
+    <Word Comment="">TLS</Word>
+    <Word Comment="">SSL3</Word>
+    <Word Comment="">date/time</Word>
+    <Word Comment="">http://localhost/Pam44-1/Service.asmx</Word>
+    <Word Comment="">Phone/Fax</Word>
+    <Word Comment="">Closure/Weekend</Word>
+    <Word Comment="">ICS</Word>
+    <Word Comment="">Gmail</Word>
+    <Word Comment="">his/her</Word>
+    <Word Comment="">Occurring/Past</Word>
+    <Word Comment="">Notifications/Automated</Word>
+    <Word Comment="">date/time/room</Word>
+    <Word Comment="">notes/special</Word>
+    <Word Comment="">event/reserved</Word>
+    <Word Comment="">NetworkID</Word>
+    <Word Comment="">EMS\username</Word>
+    <Word Comment="">tblRegistry</Word>
+    <Word>Locations&amp;Rooms</Word>
+    <Word>Videoconference</Word>
+    <Word>logon</Word>
+    <Word>Display/First/Last</Word>
+    <Word>Public/Default</Word>
+    <Word>public/default</Word>
+    <Word>configuration/setup</Word>
+    <Word>ID/First/Last</Word>
+    <Word>Toogle</Word>
+    <Word>Add/Remove</Word>
+    <Word>UI</Word>
+    <Word>http://yourserver/suite</Word>
+    <Word>\Temp\Attachment</Word>
+    <Word>VPN</Word>
+    <Word>Date/Time</Word>
+    <Word>SSRS</Word>
+    <Word>http://TEGOKU:80/Reports</Word>
+    <Word>computer’s/browser’s</Word>
+    <Word>colorpicker</Word>
+    <Word>png</Word>
+    <Word>Location&amp;Rooms</Word>
+    <Word>General.join.me</Word>
+    <Word>Users&amp;Groups</Word>
+    <Word>BT</Word>
+    <Word>Voice/Data</Word>
+    <Word>level/location</Word>
+    <Word>Building/Campus</Word>
+    <Word>alpha/ie</Word>
+    <Word>numeric/ie</Word>
+    <Word>px</Word>
+    <Word>Campus/Building</Word>
+    <Word>/exchange.acme.com/ews/exchange.asmx</Word>
+    <Word>EmergingSoft</Word>
+    <Word>Commscope</Word>
+    <Word>MeetingPlace</Word>
+    <Word>MeetMeLines</Word>
+    <Word>Tandberg</Word>
+    <Word>Vyopta</Word>
+    <Word>Commscope/MeetingPlace/MeetMeLines/Tandberg/Latitude</Word>
+    <Word>Vyopta/BT</Word>
+    <Word>requestor</Word>
+    <Word>preapproved</Word>
+    <Word>C/M</Word>
+    <Word>NewCaterer</Word>
+    <Word>Hours/Addresses/Contacts/Catering</Word>
+    <Word>A0001</Word>
+    <Word>A0002</Word>
+    <Word>B0001</Word>
+    <Word>B0002</Word>
+    <Word>Prepopulate</Word>
+    <Word>Options/Portable</Word>
+    <Word>Laptop#1</Word>
+    <Word>Laptop#2</Word>
+    <Word>Laptop#3</Word>
+    <Word>day/hours</Word>
+    <Word>in/out</Word>
+    <Word>meeting/for</Word>
+    <Word>Select/enter</Word>
+    <Word>Audio/Visual</Word>
+    <Word>ie</Word>
+    <Word>VC</Word>
+    <Word>commandline</Word>
+    <Word>cmd.exe</Word>
+    <Word>MeetingPlanner.msi</Word>
+    <Word>Users\Administrator\Desktop</Word>
+    <Word>msi</Word>
+    <Word>msiexec</Word>
+    <Word>L*V</Word>
+    <Word>mp.log</Word>
+    <Word>Emergingsoft</Word>
+    <Word>FQDN</Word>
+    <Word>http://msdn.microsoft.com/en-us/library/office/bb204095%28v</Word>
+    <Word>exchg.140%29.aspx</Word>
+    <Word>bak</Word>
+    <Word>InstallationDirectory*</Word>
+    <Word>\MeetingPlannerConfiguration\Database</Word>
+    <Word>MeetingPlanner_Demo.bak</Word>
+    <Word>preconfigured</Word>
+    <Word>\Program</Word>
+    <Word>x86</Word>
+    <Word>\Emergingsoft</Word>
+    <Word>“To</Word>
+    <Word>Logins</Word>
+    <Word>ASP.NET</Word>
+    <Word>Metabase</Word>
+    <Word>V2.0</Word>
+    <Word>V4.0</Word>
+    <Word>XP</Word>
+    <Word>IE8</Word>
+    <Word>IE11</Word>
+    <Word>2008R2</Word>
+    <Word>MeetingPlanner</Word>
+    <Word>localhost</Word>
+    <Word>Outlook.msi</Word>
+    <Word>http://msdn.microsoft.com/en-us/library/aa367988</Word>
+    <Word>vs.85</Word>
+    <Word>.aspx</Word>
 </IgnoredWordsDictionary>
